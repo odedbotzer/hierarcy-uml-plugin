@@ -1,0 +1,254 @@
+<idea-plugin version="2">
+    <name>PlantUML integration</name>
+    <version>2.15.1</version>
+    <vendor url="https://github.com/esteinberg/plantuml4idea/">Eugene Steinberg</vendor>
+    <!-- IJ 12+ -->
+    <idea-version since-build="182"/>
+
+    <description>Smart dependency analyzer - using PlantUML model visualization</description>
+
+    <change-notes>
+        <![CDATA[
+            <p>2.15</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2019.5</li>
+              <li>Caching edge case fixed</li>
+              <li>Autocomplete improvements</li>
+            </ul>
+            <p>2.14</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2019.4</li>
+              <li>Automatic code completion popup</li>
+              <li>Fixed reverse arrow intention</li>
+              <li>Added settings for encoding and PlantUML config (global include)</li>
+              <li>Using the filename from "@startuml name" when exporting</li>
+              <li>Added highlighting of comments</li>
+              <li>Updated highlighting of tags and keywords</li>
+              <li>Fixed copy to clipboard</li>
+              <li>reStructuredText files support</li>
+            </ul>
+            <p>2.13</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2019.3</li>
+              <li>Fixed image scaling in Windows 10</li>
+              <li>Added MindMap support</li>
+              <li>Added Gantt support</li>
+              <li>Added Work Breakdown Structure support</li>
+              <li>Added option to use GRAPHVIZ_DOT environment variable preferentially</li>
+              <li>Grouped file templates</li>
+              <li>Restoring scroll position after an error</li>
+              <li>Zooming even when scale is defined in the code</li>
+            </ul>
+            <p>2.12</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2018.11</li>
+              <li>Fixed diagram saving</li>
+            </ul>
+            <p>2.11</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2018.9</li>
+            </ul>
+            <p>2.10</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2018.1</li>
+            </ul>
+            <p>2.9</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2017.15</li>
+              <li>Exception fixes</li>
+            </ul>
+            <p>2.8</p>
+            <ul>
+              <li>PlantUml library upgrade to v1.2017.12</li>
+            </ul>
+            <p>2.7</p>
+            <ul>
+              <li>Fixed opening in an external editor for multiple-page diagrams</li>
+              <li>Fixed edge cases for Copy and Save diagram actions</li>
+            </ul>
+            <p>2.6</p>
+            <ul>
+              <li>NPE fix for AndroidStudio</li>
+              <li>PlantUml library upgrade to v2017.08</li>
+              <li>Added support for *.plantuml file extension</li>
+            </ul>
+            <p>2.5</p>
+            <ul>
+              <li>Disabled asserts in PlantUml - they were causing slow rendering</li>
+              <li>PlantUml library upgrade to 8053</li>
+            </ul>
+            <p>2.4</p>
+            <ul>
+              <li>PlantUml library upgrade to 8051</li>
+              <li>Changed default shortcuts to Ctrl+Alt+Shift+F and G</li>
+              <li>NPE fix</li>
+            </ul>
+            <p>2.3.1</p>
+            <ul>
+                <li>Fixed ASCII image rendering and typos</li>
+            </ul>
+            <p>2.3</p>
+            <ul>
+                <li>Path to Graphviz dot executable was ignored</li>
+                <li>PlantUml library upgrade to 8043</li>
+                <li>Added a low memory watcher for cache clearing</li>
+            </ul>
+            <p>2.2</p>
+            <ul>
+               <li>Toggle button for disabling automatic rendering</li>
+               <li>When auto-rendering is disabled, update and reload button will be red</li>
+               <li>ALT+D shortcut for diagram update</li>
+               <li>ALT+F shortcut for diagram reload</li>
+               <li>Page titles fixed for partial rendering</li>
+               <li>Usage manual</li>
+               <li>About dialog reworked</li>
+               <li>IJ 12 compatibility fix</li>
+            </ul>
+            <p>2.1</p>
+            <ul>
+               <li>Scrolling fixed for 2016.2</li>
+               <li>Remembering selected page per file</li>
+               <li>New right click action: Generate PlantUML Server link to clipboard</li>
+               <li>Page titles in the dropdown page selector</li>
+            </ul>
+            <p>2.0</p>
+            <ul>
+               <li>PlantUml library upgrade to 8042</li>
+               <li>Images can be copied to clipboard as ASCII Art</li>
+               <li>Fixed: @startditaa` not recognized</li>
+               <li>Added a configurable delay between key up event and rendering run</li>
+               <li>Disabled URL links rendering by default - doubles rendering time</li>
+               <li>A lot of caching and optimizations</li>
+               <li>Added incremental rendering - only changed pages will be rendered</li>
+               <li>Added partial rendering mode - useful in large files - the document will be splitted by (@)newpage and each piece will be rendered by itself.</li>
+               <li>Added intentions to disable syntax check, and enable partial rendering - available on the start tag (@startuml,...)</li>
+            </ul>
+       ]]>
+    </change-notes>
+    <depends>com.intellij.modules.platform</depends>
+
+    <application-components>
+        <!-- Add your application components here -->
+        <component>
+            <implementation-class>org.plantuml.idea.toolwindow.PlantUmlApplicationComponent</implementation-class>
+        </component>
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+        <component>
+            <implementation-class>org.plantuml.idea.toolwindow.PlantUmlProjectComponent</implementation-class>
+        </component>
+    </project-components>
+
+    <actions>
+        <group id="PlantUML.Toolbar" description="PlantUML Toolbar">
+            <action id="PlantUML.Update" description="Update PlantUml Diagrams"
+                    class="org.plantuml.idea.action.UpdateDiagramsAction"
+                    icon="/javaee/updateRunningApplication.png" text="Update PlantUml Diagrams - changes only">
+                <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift F"/>
+            </action>
+            <action id="PlantUML.Reload" description="Reload PlantUml Diagrams"
+                    class="org.plantuml.idea.action.ReloadNowAction"
+                    icon="/actions/refresh.png" text="Reload PlantUml Diagrams">
+                <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift G"/>
+            </action>
+
+            <separator/>
+            <action id="PlantUML.StartFollow" description="Start following editor"
+                    class="codeexplorer.filefollower.FollowStarter"
+                    text="Start following">
+            </action>
+            <action id="PlantUML.StopFollow" description="Stop following editor"
+                    class="codeexplorer.filefollower.FollowStopper"
+                    text="Stop following">
+            </action>
+
+            <separator/>
+            <action id="PlantUML.CopyToClipboard" description="Copy Current Diagram to Clipboard"
+                    class="org.plantuml.idea.action.CopyDiagramToClipboardAction"
+                    icon="/actions/copy.png" text="Copy Current Diagram to Clipboard"
+            />
+            <action id="PlantUML.SaveToFile" description="Save Current Diagram Only"
+                    class="org.plantuml.idea.action.SaveDiagramToFileAction"
+                    icon="/actions/menu-saveall.png" text="Save Current Diagram Only"/>
+            <action id="PlantUML.SaveAllToFile" description="Save All Diagrams"
+                    class="org.plantuml.idea.action.SaveAllDiagramToFileAction"
+                    icon="/actions/export.png" text="Save All Diagrams in Current File"/>
+            <separator/>
+
+            <action id="PlantUML.ZoomIn" description="Zoom In" class="org.plantuml.idea.action.ZoomInAction"
+                    icon="/graph/zoomIn.png" text="Zoom In"/>
+            <action id="PlantUML.ZoomOut" description="Zoom In" class="org.plantuml.idea.action.ZoomOutAction"
+                    icon="/graph/zoomOut.png" text="Zoom Out"/>
+            <action id="PlantUML.ZoomActual" description="Actual Zoom" class="org.plantuml.idea.action.ZoomActualAction"
+                    icon="/graph/actualZoom.png" text="Actual Zoom"/>
+            <separator/>
+
+            <action id="PlantUML.PrevPage" description="Prev Page" class="org.plantuml.idea.action.PrevPageAction"
+                    icon="/actions/back.png" text="Previous Page"/>
+            <action id="PlantUML.NextPage" description="Next Page" class="org.plantuml.idea.action.NextPageAction"
+                    icon="/actions/forward.png" text="Next Page"/>
+
+            <separator/>
+
+            <group id="PlantUML.Settings" icon="/general/settings.png" popup="true">
+                <action id="PlantUML.AutoPoup"
+                        class="org.plantuml.idea.action.AutoPopupToggleAction"
+                        text="Automatic Code Completion Popup"
+                        description="'Settings | Editor | General | Code Completion | Show suggestions as you type' must also be enabled"/>
+                <action id="PlantUML.AutoRender"
+                        class="org.plantuml.idea.action.AutoRenderToggleAction"
+                        text="Automatically Render"/>
+                <action id="PlantUML.AutoHideToolWindowToggle"
+                        class="org.plantuml.idea.action.AutoHideToolWindowToggleAction"
+                        text="Automatically Show/Hide Tool Window"/>
+                <action id="PlantUML.ShowSettings" class="org.plantuml.idea.action.ShowSettingsAction"
+                        text="Open Settings"/>
+            </group>
+
+            <separator/>
+            <action id="PlantUML.About" description="About" icon="/actions/help.png"
+                    class="org.plantuml.idea.action.AboutAction" text="About"/>
+        </group>
+
+        <group id="NewPlantUML" text="PlantUML">
+            <action id="NewPlantUMLFile" class="org.plantuml.idea.plantuml.CreatePlantUMLFileAction"/>
+            <add-to-group group-id="NewGroup" anchor="before" relative-to-action="NewFromTemplate"/>
+        </group>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <intentionAction>
+            <className>org.codeexplorer.plantuml.idea.intentions.ReverseArrowIntention</className>
+            <category>plantuml4idea plugin</category>
+        </intentionAction>
+        <intentionAction>
+            <className>org.codeexplorer.plantuml.idea.intentions.AddPartialRenderOptionIntention</className>
+            <category>plantuml4idea plugin</category>
+        </intentionAction>
+        <intentionAction>
+            <className>org.codeexplorer.plantuml.idea.intentions.AddNoSyntaxCheckOptionIntention</className>
+            <category>plantuml4idea plugin</category>
+        </intentionAction>
+
+        <toolWindow id="PlantUML" icon="/images/uml.png" anchor="right"
+                    factoryClass="org.plantuml.idea.toolwindow.PlantUmlToolWindowFactory"/>
+        <fileTypeFactory implementation="org.plantuml.idea.lang.PlantUmlTypeFactory"/>
+        <lang.parserDefinition language="PUML"
+                               implementationClass="org.plantuml.idea.lang.PlantUmlParserDefinition"/>
+        <lang.commenter language="PUML" implementationClass="org.plantuml.idea.lang.PlantUmlCommenter"/>
+        <applicationConfigurable instance="org.plantuml.idea.lang.settings.PlantUmlSettingsPage"/>
+        <applicationService serviceImplementation="org.plantuml.idea.lang.settings.PlantUmlSettings"/>
+        <externalAnnotator implementationClass="org.plantuml.idea.lang.annotator.PlantUmlExternalAnnotator"
+                           language="PUML"/>
+        <applicationService serviceImplementation="org.plantuml.idea.toolwindow.SelectedPagePersistentStateComponent"/>
+
+        <completion.contributor language="PUML"
+                                implementationClass="org.plantuml.idea.lang.PlantUmlCompletionContributor"/>
+        <typedHandler implementation="org.plantuml.idea.lang.PlantUmlCompletionAutoPopupHandler"
+                      id="PlantUmlCompletionAutoPopupHandler"/>
+
+        <editorTabTitleProvider implementation="codeexplorer.filefollower.EditorTabFollower" />
+    </extensions>
+</idea-plugin>
