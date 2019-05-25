@@ -15,6 +15,7 @@ public class UmlBuilder {
     private Set<JavaFileIdentifier> additionalFiles = Sets.newHashSet();
     private Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies = newHashMap();
     private Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies = newHashMap();
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType")
     private Optional<JavaFileIdentifier> focusedFile = Optional.empty();
 
     public UmlBuilder addFiles(Set<JavaFileIdentifier> additionalFiles) {
@@ -23,20 +24,18 @@ public class UmlBuilder {
     }
 
     public UmlBuilder addFileDependencies(Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies) {
-        fileDependencies.entrySet().stream()
-                .forEach(dependency -> this.fileDependencies.merge(dependency.getKey(), dependency.getValue(), Sets::union));
+        fileDependencies.forEach((key, value) -> this.fileDependencies.merge(key, value, Sets::union));
         return this;
     }
 
     public UmlBuilder addReverseFileDependencies(Set<JavaFileIdentifier> fromFiles, JavaFileIdentifier toFile) {
         Set<JavaFileIdentifier> toFileSet = newHashSet(toFile);
-        fromFiles.stream().forEach(fromFile -> this.fileDependencies.merge(fromFile, toFileSet, Sets::union));
+        fromFiles.forEach(fromFile -> this.fileDependencies.merge(fromFile, toFileSet, Sets::union));
         return this;
     }
 
     public UmlBuilder addPackageDependencies(Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies) {
-        packageDependencies.entrySet().stream()
-                .forEach(dependency -> this.packageDependencies.merge(dependency.getKey(), dependency.getValue(), Sets::union));
+        packageDependencies.forEach((key, value) -> this.packageDependencies.merge(key, value, Sets::union));
         return this;
     }
 

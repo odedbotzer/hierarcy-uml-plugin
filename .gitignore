@@ -14,10 +14,13 @@
 ### IntelliJ IDEA ###
 .idea
 .idea/workspace.xml
+workspace.xml
 *.iws
 *.iml
 *.ipr
 /out/
+/out/**
+/out/*
 
 ### NetBeans ###
 /nbproject/private/

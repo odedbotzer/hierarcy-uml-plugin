@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83c2b35c-93aa-4d5f-85c9-50d400d84eea" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/META-INF/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/filefollower/EditorTabFollower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/filefollower/FollowStarter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/filefollower/FollowStopper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/plantuml/UmlBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/plantuml/UmlRepresentation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/JavaFileAnalyzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/JavaFileIdentifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/JavaModuleRootExtractor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/PackageIdentifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/SourcesAnalyzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/Salt Wireframe.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Activity.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Class.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Component.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Gantt.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML MindMap.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Object.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Sequence.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML State.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Use Case.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/Work Breakdown Structure.puml.ft" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceRefresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceRefresh@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceUpdate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceUpdate@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddNoSyntaxCheckOptionIntention/after.txt.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddNoSyntaxCheckOptionIntention/before.txt.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddNoSyntaxCheckOptionIntention/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddPartialRenderOptionIntention/after.txt.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddPartialRenderOptionIntention/before.txt.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddPartialRenderOptionIntention/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/ReverseArrowIntention/after.txt.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/ReverseArrowIntention/before.txt.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/ReverseArrowIntention/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/InstallationError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AboutAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AbstractSaveDiagramAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AutoHideToolWindowToggleAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AutoPopupToggleAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AutoRenderToggleAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/CopyDiagramToClipboardAction$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/CopyDiagramToClipboardAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/NextPageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/PrevPageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ReloadNowAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SaveAllDiagramToFileAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SaveDiagramToFileAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SelectPageAction$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SelectPageAction$SetPageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SelectPageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ShowSettingsAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/UpdateDiagramsAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomActualAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomInAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomOutAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramAsTxtToClipboardContextAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramAsUnicodeTxtToClipboardContextAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramToClipboardContextAction$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramToClipboardContextAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyPlantUmlServerLinkContextAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/ExternalOpenDiagramAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/ExternalOpenDiagramAsPNGAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/ExternalOpenDiagramAsSVGAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/SaveDiagramToFileContextAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/AddNoSyntaxCheckOptionIntention.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/AddPartialRenderOptionIntention$AddPartialRenderCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/AddPartialRenderOptionIntention.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/Arrow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/ReverseArrowIntention$ReverseArrowCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/ReverseArrowIntention.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantIUmlFileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCommenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCompletionAutoPopupHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCompletionContributor$SimpleProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCompletionContributor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlFileImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlFileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlLanguage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlParserDefinition$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlParserDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlTypeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/ErrorSourceAnnotation$PlantUmlIntentionAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/ErrorSourceAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/FileAnnotationResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/LanguageDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/LanguagePatternHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/PlantUmlExternalAnnotator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/SourceAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/SourceAnnotationResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/SyntaxHighlightAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/ConfigExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/PlantUmlSettings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/PlantUmlSettingsPage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/CreatePlantUMLFileAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlIncludes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlIncludes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/DiagramInfo$Titles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/DiagramInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/ImageItem$UrlData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/ImageItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutor$Delay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PartialRenderingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlNormalRenderer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlPartialRenderer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlRenderer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlRendererUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCacheItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCommand$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCommand$Reason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderingCancelledException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderingType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog$BrowseHyperlinkListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/ExecutionStatusPanel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/ExecutionStatusPanel$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/ExecutionStatusPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlApplicationComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlProjectComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$MyRenderCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/SelectedPagePersistentStateComponent$MyLinkedHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/SelectedPagePersistentStateComponent$SelectedPages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/SelectedPagePersistentStateComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/Usage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlAncestorListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlCaretListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlDocumentListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlRenderingFileEditorManagerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlToolWindowOpener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/util/UIUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/util/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/codeexplorer/plantuml/UmlBuilderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/codeexplorer/projectanalyzer/SourcesAnalyzerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowTest$AssertStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ReverseArrowIntentionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/PlantUmlExternalAnnotatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlRendererUtilTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlPartialRendererTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/afterClassArrows.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/afterSequenceArrows.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/afterSequenceSpecialArrows.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeCaretNotOnArrow.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeClassArrows.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeNotValidArrow.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeSequenceArrows.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeSequenceSpecialArrows.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3100">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3260">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#1216#1217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43200">
+              <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MODULE_DIR</find>
+      <find>modules</find>
+      <find>radio</find>
+      <find>getAbsolutePath</find>
+      <find>replace</find>
+      <find>choose module</find>
+      <find>addAll</find>
+      <find>addAll(</find>
+      <find>out</find>
+      <find>.idea</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="977" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\odedbotzer\IdeaProjects\hierarchy-uml-plugin\src\main" />
+      <recent name="C:\Users\odedbotzer\IdeaProjects\hierarchy-uml-plugin\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="hierarchy-uml-plugin" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="hierarchy-uml-plugin" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83c2b35c-93aa-4d5f-85c9-50d400d84eea" name="Default Changelist" comment="" />
+      <created>1558801982269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558801982269</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1558825477321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558825477321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5681818" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info active="true" anchor="right" id="PlantUML" order="8" visible="true" weight="0.3299356" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>String miscFilePath = new File(project.getProjectFile().getPath()).getPath();
+            String modulesFilePath = miscFilePath.substring(0, miscFilePath.lastIndexOf(File.separator) + 1) + &quot;modules.xml&quot;;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>umlBuilder.setFocusedFile(focusedFile).build().writeUml()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(new JavaModuleRootExtractor(project)).getModuleRootDir()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result=0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Messages.showYesNoCancelDialog(project, &quot;Analyze &quot; + moduleFile.getName() + &quot; module?&quot;, &quot;Choose module to analyze&quot;, getQuestionIcon())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(startFolder.getAbsolutePath() + File.separator + url.substring(offset))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>startFolder.getAbsolutePath() + File.separator + url.substring(offset)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>startFolder.getAbsolutePath() + url.substring(offset)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>startFolder</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hierarchy-uml-plugin.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/vfs/VirtualFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/ui/messages/MessagesService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/ui/Messages.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="298" column="46" selection-start-line="298" selection-start-column="46" selection-end-line="298" selection-end-column="46" />
+          <folding>
+            <element signature="e#2889#2914#0" />
+            <element signature="e#2920#3582#0" />
+            <element signature="e#3086#3198#1" />
+            <element signature="e#3230#3427#1" />
+            <element signature="e#3433#3576#1" />
+            <element signature="e#3588#4295#0" />
+            <element signature="e#3769#3881#1" />
+            <element signature="e#3913#4125#1" />
+            <element signature="e#4131#4289#1" />
+            <element signature="e#4516#4719#0" />
+            <element signature="e#4642#4687#1" />
+            <element signature="e#4725#4940#0" />
+            <element signature="e#4863#4908#1" />
+            <element signature="e#4946#5153#0" />
+            <element signature="e#5076#5121#1" />
+            <element signature="e#5159#5368#0" />
+            <element signature="e#5291#5336#1" />
+            <element signature="e#5374#5519#0" />
+            <element signature="e#5525#6976#0" />
+            <element signature="e#5666#5711#1" />
+            <element signature="e#6005#6126#1" />
+            <element signature="e#6037#6090#1" />
+            <element signature="e#6132#6970#1" />
+            <element signature="e#6660#6781#1" />
+            <element signature="e#6875#6928#1" />
+            <element signature="e#6982#7421#0" />
+            <element signature="e#7235#7320#1" />
+            <element signature="e#7348#7393#1" />
+            <element signature="e#7427#8410#0" />
+            <element signature="e#7619#7664#1" />
+            <element signature="e#7861#7942#1" />
+            <element signature="e#8081#8142#1" />
+            <element signature="e#8325#8370#1" />
+            <element signature="e#8649#8695#1" />
+            <element signature="e#8817#9062#0" />
+            <element signature="e#9068#9619#0" />
+            <element signature="e#9302#9509#0" />
+            <element signature="e#9349#9497#0" />
+            <element signature="e#9541#9587#1" />
+            <element signature="e#9625#10454#0" />
+            <element signature="e#9744#9790#1" />
+            <element signature="e#9918#10447#1" />
+            <element signature="e#10078#10437#1" />
+            <element signature="e#10198#10307#0" />
+            <element signature="e#10360#10423#1" />
+            <element signature="e#10741#10787#1" />
+            <element signature="e#10818#10864#1" />
+            <element signature="e#11045#11550#0" />
+            <element signature="e#11330#11376#1" />
+            <element signature="e#11556#11780#0" />
+            <element signature="e#11786#11978#0" />
+            <element signature="e#11984#12547#0" />
+            <element signature="e#12255#12301#1" />
+            <element signature="e#12332#12378#1" />
+            <element signature="e#12553#13170#0" />
+            <element signature="e#12794#12840#1" />
+            <element signature="e#12869#12915#1" />
+            <element signature="e#12946#12992#1" />
+            <element signature="e#13176#13774#0" />
+            <element signature="e#13454#13500#1" />
+            <element signature="e#13531#13577#1" />
+            <element signature="e#13780#14194#0" />
+            <element signature="e#14027#14073#1" />
+            <element signature="e#14200#14559#0" />
+            <element signature="e#14406#14452#1" />
+            <element signature="e#14565#15262#0" />
+            <element signature="e#14762#14808#1" />
+            <element signature="e#14822#15061#0" />
+            <element signature="e#14864#15051#1" />
+            <element signature="e#15127#15167#0" />
+            <element signature="e#15268#16026#0" />
+            <element signature="e#15466#15512#1" />
+            <element signature="e#15541#15587#1" />
+            <element signature="e#15601#15824#0" />
+            <element signature="e#15643#15814#1" />
+            <element signature="e#15890#15930#0" />
+            <element signature="e#16032#16626#0" />
+            <element signature="e#16202#16248#1" />
+            <element signature="e#16262#16443#0" />
+            <element signature="e#16304#16433#1" />
+            <element signature="e#16509#16549#0" />
+            <element signature="e#16632#17654#0" />
+            <element signature="e#16901#16947#1" />
+            <element signature="e#16978#17024#1" />
+            <element signature="e#17054#17100#1" />
+            <element signature="e#17114#17338#0" />
+            <element signature="e#17156#17328#1" />
+            <element signature="e#17404#17444#0" />
+            <element signature="e#17660#18746#0" />
+            <element signature="e#17970#18016#1" />
+            <element signature="e#18047#18093#1" />
+            <element signature="e#18123#18169#1" />
+            <element signature="e#18183#18423#0" />
+            <element signature="e#18225#18413#1" />
+            <element signature="e#18489#18529#0" />
+            <element signature="e#18752#19550#0" />
+            <element signature="e#18972#19018#1" />
+            <element signature="e#19032#19262#0" />
+            <element signature="e#19074#19252#1" />
+            <element signature="e#19328#19368#0" />
+            <element signature="e#19556#20427#0" />
+            <element signature="e#19817#19863#1" />
+            <element signature="e#19877#20123#0" />
+            <element signature="e#19919#20113#1" />
+            <element signature="e#20189#20229#0" />
+            <element signature="e#20433#21326#0" />
+            <element signature="e#20654#20700#1" />
+            <element signature="e#20729#20775#1" />
+            <element signature="e#20789#21003#0" />
+            <element signature="e#20831#20993#1" />
+            <element signature="e#21069#21109#0" />
+            <element signature="e#21332#22338#0" />
+            <element signature="e#21615#21661#1" />
+            <element signature="e#21692#21738#1" />
+            <element signature="e#21768#21814#1" />
+            <element signature="e#21828#22024#0" />
+            <element signature="e#21870#22014#1" />
+            <element signature="e#22090#22130#0" />
+            <element signature="e#22344#22644#0" />
+            <element signature="e#22650#23368#0" />
+            <element signature="e#22843#22889#1" />
+            <element signature="e#22903#23089#0" />
+            <element signature="e#22945#23079#1" />
+            <element signature="e#23155#23195#0" />
+            <element signature="e#23374#24409#0" />
+            <element signature="e#23663#23709#1" />
+            <element signature="e#23739#23785#1" />
+            <element signature="e#23819#23865#1" />
+            <element signature="e#23879#24172#0" />
+            <element signature="e#23921#24162#1" />
+            <element signature="e#24238#24278#0" />
+            <element signature="e#24415#24990#0" />
+            <element signature="e#24673#24719#1" />
+            <element signature="e#24749#24795#1" />
+            <element signature="e#24829#24875#1" />
+            <element signature="e#24996#25014#0" />
+            <element signature="e#25019#25030#0" />
+            <element signature="e#24996#25302#0" />
+            <element signature="e#25308#26360#0" />
+            <element signature="e#25577#25623#1" />
+            <element signature="e#25652#25698#1" />
+            <element signature="e#25728#25774#1" />
+            <element signature="e#25808#25854#1" />
+            <element signature="e#25868#26129#0" />
+            <element signature="e#25910#26119#1" />
+            <element signature="e#26195#26235#0" />
+            <element signature="e#26366#26384#0" />
+            <element signature="e#26389#26400#0" />
+            <element signature="e#26366#26757#0" />
+            <element signature="e#26613#26659#1" />
+            <element signature="e#26763#26781#0" />
+            <element signature="e#26786#26797#0" />
+            <element signature="e#26763#27079#0" />
+            <element signature="e#27085#27390#0" />
+            <element signature="e#27396#28371#0" />
+            <element signature="e#27678#27724#1" />
+            <element signature="e#27754#27800#1" />
+            <element signature="e#27834#27880#1" />
+            <element signature="e#27894#28143#0" />
+            <element signature="e#27936#28133#1" />
+            <element signature="e#28209#28249#0" />
+            <element signature="e#28377#28876#0" />
+            <element signature="e#28761#28868#0" />
+            <element signature="e#28882#29466#0" />
+            <element signature="e#29233#29279#1" />
+            <element signature="e#29472#29770#0" />
+            <element signature="e#29776#30461#0" />
+            <element signature="e#29955#30001#1" />
+            <element signature="e#30015#30250#0" />
+            <element signature="e#30057#30240#1" />
+            <element signature="e#30316#30356#0" />
+            <element signature="e#30467#31220#0" />
+            <element signature="e#30648#30694#1" />
+            <element signature="e#30723#30769#1" />
+            <element signature="e#30783#31005#0" />
+            <element signature="e#30825#30995#1" />
+            <element signature="e#31071#31111#0" />
+            <element signature="e#31226#31883#0" />
+            <element signature="e#31340#31386#1" />
+            <element signature="e#31400#31645#0" />
+            <element signature="e#31442#31635#1" />
+            <element signature="e#31711#31751#0" />
+            <element signature="e#31889#32480#0" />
+            <element signature="e#32036#32082#1" />
+            <element signature="e#32096#32287#0" />
+            <element signature="e#32138#32277#1" />
+            <element signature="e#32353#32393#0" />
+            <element signature="e#32486#33170#0" />
+            <element signature="e#32662#32708#1" />
+            <element signature="e#32722#32957#0" />
+            <element signature="e#32764#32947#1" />
+            <element signature="e#33023#33063#0" />
+            <element signature="e#33176#33933#0" />
+            <element signature="e#33359#33405#1" />
+            <element signature="e#33434#33480#1" />
+            <element signature="e#33494#33716#0" />
+            <element signature="e#33536#33706#1" />
+            <element signature="e#33782#33822#0" />
+            <element signature="e#33939#34534#0" />
+            <element signature="e#34088#34134#1" />
+            <element signature="e#34148#34339#0" />
+            <element signature="e#34190#34329#1" />
+            <element signature="e#34405#34445#0" />
+            <element signature="e#34827#34873#1" />
+            <element signature="e#34900#34946#1" />
+            <element signature="e#34972#35018#1" />
+            <element signature="e#35048#35094#1" />
+            <element signature="e#35108#35360#0" />
+            <element signature="e#35150#35350#1" />
+            <element signature="e#35426#35466#0" />
+            <element signature="e#35954#37129#0" />
+            <element signature="e#36242#36288#1" />
+            <element signature="e#36317#36363#1" />
+            <element signature="e#36390#36436#1" />
+            <element signature="e#36462#36508#1" />
+            <element signature="e#36538#36584#1" />
+            <element signature="e#36598#36834#0" />
+            <element signature="e#36640#36824#1" />
+            <element signature="e#36900#36940#0" />
+            <element signature="e#37135#37508#0" />
+            <element signature="e#37349#37395#1" />
+            <element signature="e#37514#38590#0" />
+            <element signature="e#37815#37861#1" />
+            <element signature="e#37888#37934#1" />
+            <element signature="e#37960#38006#1" />
+            <element signature="e#38036#38082#1" />
+            <element signature="e#38096#38298#0" />
+            <element signature="e#38138#38288#1" />
+            <element signature="e#38364#38404#0" />
+            <element signature="e#38596#38911#0" />
+            <element signature="e#38917#39179#0" />
+            <element signature="e#39185#39425#0" />
+            <element signature="e#39431#39697#0" />
+            <element signature="e#39703#40034#0" />
+            <element signature="e#40040#40328#0" />
+            <element signature="e#40334#40699#0" />
+            <element signature="e#40537#40583#1" />
+            <element signature="e#40705#40948#0" />
+            <element signature="e#40954#41372#0" />
+            <element signature="e#41378#41764#0" />
+            <element signature="e#41770#42224#0" />
+            <element signature="e#42230#42716#0" />
+            <element signature="e#42500#42546#1" />
+            <element signature="e#42722#43114#0" />
+            <element signature="e#43120#43493#0" />
+            <element signature="e#43499#44079#0" />
+            <element signature="e#44001#44047#1" />
+            <element signature="e#44085#44447#0" />
+            <element signature="e#44453#44471#0" />
+            <element signature="e#44453#44806#0" />
+            <element signature="e#44812#44830#0" />
+            <element signature="e#44812#45249#0" />
+            <element signature="e#45066#45112#1" />
+            <element signature="e#45255#45273#0" />
+            <element signature="e#45255#45609#0" />
+            <element signature="e#45615#46258#0" />
+            <element signature="e#45783#45829#1" />
+            <element signature="e#45843#46069#0" />
+            <element signature="e#45885#46059#1" />
+            <element signature="e#46135#46175#0" />
+            <element signature="e#46264#46929#0" />
+            <element signature="e#46443#46489#1" />
+            <element signature="e#46503#46742#0" />
+            <element signature="e#46545#46732#1" />
+            <element signature="e#46808#46848#0" />
+            <element signature="e#46935#47515#0" />
+            <element signature="e#47082#47128#1" />
+            <element signature="e#47142#47337#0" />
+            <element signature="e#47184#47327#1" />
+            <element signature="e#47403#47443#0" />
+            <element signature="e#47521#47907#0" />
+            <element signature="initializer##0;class#Messages#0" />
+            <element signature="e#48432#49779#0" />
+            <element signature="e#48512#48963#0" />
+            <element signature="e#48800#48853#1" />
+            <element signature="e#49298#49773#0" />
+            <element signature="e#49447#49591#1" />
+            <element signature="e#49785#56978#0" />
+            <element signature="e#49982#50654#0" />
+            <element signature="e#50297#50350#1" />
+            <element signature="e#50664#51129#0" />
+            <element signature="e#50953#51006#1" />
+            <element signature="e#51139#51493#0" />
+            <element signature="e#51503#52126#0" />
+            <element signature="e#51745#51798#1" />
+            <element signature="e#52136#52654#0" />
+            <element signature="e#52664#52836#0" />
+            <element signature="e#52846#54523#0" />
+            <element signature="e#53038#54396#1" />
+            <element signature="e#53119#54122#1" />
+            <element signature="e#53464#53549#1" />
+            <element signature="e#53864#54053#1" />
+            <element signature="e#54128#54382#1" />
+            <element signature="class#54167:54363" />
+            <element signature="e#54431#54484#1" />
+            <element signature="e#54533#54812#0" />
+            <element signature="e#54755#54801#1" />
+            <element signature="e#54909#55240#0" />
+            <element signature="e#55250#55831#0" />
+            <element signature="e#55413#55557#1" />
+            <element signature="e#55734#55787#1" />
+            <element signature="e#55948#56513#0" />
+            <element signature="e#56083#56175#1" />
+            <element signature="e#56181#56359#1" />
+            <element signature="e#56984#57027#0" />
+            <element signature="e#57033#57073#0" />
+            <element signature="e#57079#57116#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="471" selection-start-line="6" selection-start-column="471" selection-end-line="6" selection-end-column="471" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/project/impl/ProjectImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="232" column="18" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+          <folding>
+            <element signature="e#9240#9241#0" expanded="true" />
+            <element signature="e#9330#9331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/project/Project.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/guava-25.1-jre.jar!/com/google/common/collect/Sets.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="1156" column="8" lean-forward="true" selection-start-line="1156" selection-start-column="8" selection-end-line="1156" selection-end-column="8" />
+          <folding>
+            <element signature="e#1522#1559#0" />
+            <element signature="e#1590#1612#0" />
+            <element signature="e#1618#1667#0" />
+            <element signature="e#1618#1862#0" />
+            <element signature="e#1868#1917#0" />
+            <element signature="e#1868#2716#0" />
+            <element signature="e#2063#2121#1" />
+            <element signature="e#2163#2355#1" />
+            <element signature="e#2361#2710#1" />
+            <element signature="e#2445#2637#1" />
+            <element signature="e#2643#2700#1" />
+            <element signature="e#2722#2882#0" />
+            <element signature="e#2888#3110#0" />
+            <element signature="e#3201#3396#0" />
+            <element signature="e#3402#3605#0" />
+            <element signature="e#3611#3790#0" />
+            <element signature="e#3796#3934#0" />
+            <element signature="e#4068#4259#0" />
+            <element signature="e#4368#4723#0" />
+            <element signature="e#4498#4576#1" />
+            <element signature="e#4582#4717#1" />
+            <element signature="e#4729#4885#0" />
+            <element signature="e#4995#5193#0" />
+            <element signature="e#5199#5360#0" />
+            <element signature="e#5636#5978#0" />
+            <element signature="e#5984#6479#0" />
+            <element signature="e#6113#6186#1" />
+            <element signature="e#6192#6473#1" />
+            <element signature="e#6485#6770#0" />
+            <element signature="e#6776#7001#0" />
+            <element signature="e#7007#7025#0" />
+            <element signature="e#7166#9562#0" />
+            <element signature="class#7385:9555" />
+            <element signature="method#size#0;class#7385:9555" />
+            <element signature="e#7565#7722#1" />
+            <element signature="e#7649#7704#1" />
+            <element signature="method#iterator#0;class#7385:9555" />
+            <element signature="class#7962:8756" />
+            <element signature="method#computeNext#0;class#7962:8756" />
+            <element signature="e#8228#8308#1" />
+            <element signature="e#8314#8716#1" />
+            <element signature="e#8385#8626#1" />
+            <element signature="e#8445#8541#1" />
+            <element signature="method#stream#0;class#7385:9555" />
+            <element signature="e#8886#8958#0" />
+            <element signature="method#copyInto#0;class#7385:9555" />
+            <element signature="e#9568#11780#0" />
+            <element signature="class#9774:11773" />
+            <element signature="method#iterator#0;class#9774:11773" />
+            <element signature="class#9877:10487" />
+            <element signature="method#computeNext#0;class#9877:10487" />
+            <element signature="e#10047#10447#1" />
+            <element signature="e#10101#10367#1" />
+            <element signature="e#10213#10294#1" />
+            <element signature="method#stream#0;class#9774:11773" />
+            <element signature="method#parallelStream#0;class#9774:11773" />
+            <element signature="method#size#0;class#9774:11773" />
+            <element signature="e#11146#11302#1" />
+            <element signature="e#11229#11284#1" />
+            <element signature="method#containsAll#0;class#9774:11773" />
+            <element signature="e#11786#13695#0" />
+            <element signature="class#11990:13688" />
+            <element signature="method#iterator#0;class#11990:13688" />
+            <element signature="class#12093:12702" />
+            <element signature="method#computeNext#0;class#12093:12702" />
+            <element signature="e#12263#12662#1" />
+            <element signature="e#12317#12582#1" />
+            <element signature="e#12428#12509#1" />
+            <element signature="method#stream#0;class#11990:13688" />
+            <element signature="e#12803#12875#0" />
+            <element signature="method#parallelStream#0;class#11990:13688" />
+            <element signature="e#12993#13065#0" />
+            <element signature="method#size#0;class#11990:13688" />
+            <element signature="e#13233#13390#1" />
+            <element signature="e#13317#13372#1" />
+            <element signature="e#13701#15929#0" />
+            <element signature="class#13934:15922" />
+            <element signature="method#iterator#0;class#13934:15922" />
+            <element signature="e#14278#15007#1" />
+            <element signature="e#14370#14641#1" />
+            <element signature="e#14483#14564#1" />
+            <element signature="e#14674#14909#1" />
+            <element signature="e#14729#14825#1" />
+            <element signature="method#size#0;class#13934:15922" />
+            <element signature="e#15240#15395#1" />
+            <element signature="e#15322#15377#1" />
+            <element signature="e#15476#15631#1" />
+            <element signature="e#15558#15613#1" />
+            <element signature="e#15935#16608#0" />
+            <element signature="e#16065#16137#1" />
+            <element signature="e#16187#16449#1" />
+            <element signature="e#16455#16602#1" />
+            <element signature="e#16614#17208#0" />
+            <element signature="e#16763#17037#1" />
+            <element signature="e#17043#17202#1" />
+            <element signature="e#17214#17847#0" />
+            <element signature="e#17390#17670#1" />
+            <element signature="e#17676#17841#1" />
+            <element signature="e#17853#17994#0" />
+            <element signature="e#18000#18152#0" />
+            <element signature="e#18158#18208#0" />
+            <element signature="e#18316#21661#0" />
+            <element signature="e#18669#18735#1" />
+            <element signature="e#18741#21655#1" />
+            <element signature="class#18829:21643" />
+            <element signature="method#contains#0;class#18829:21643" />
+            <element signature="e#18960#19021#1" />
+            <element signature="e#19027#19175#1" />
+            <element signature="method#iterator#0;class#18829:21643" />
+            <element signature="class#19279:21342" />
+            <element signature="method#computeNext#0;class#19279:21342" />
+            <element signature="e#19489#19576#1" />
+            <element signature="e#19582#20165#1" />
+            <element signature="e#19807#19908#1" />
+            <element signature="class#20281:21293" />
+            <element signature="method#contains#0;class#20281:21293" />
+            <element signature="method#iterator#0;class#20281:21293" />
+            <element signature="class#20664:21092" />
+            <element signature="method#computeNext#0;class#20664:21092" />
+            <element signature="e#21667#21946#0" />
+            <element signature="e#21813#21914#1" />
+            <element signature="e#21952#22401#0" />
+            <element signature="e#22040#22076#1" />
+            <element signature="e#22109#22352#1" />
+            <element signature="e#22161#22241#0" />
+            <element signature="e#22297#22342#0" />
+            <element signature="e#22358#22395#1" />
+            <element signature="e#22407#22662#0" />
+            <element signature="e#22668#22841#0" />
+            <element signature="e#22847#23068#0" />
+            <element signature="e#23074#23525#0" />
+            <element signature="e#23235#23308#1" />
+            <element signature="e#23531#23536#0" />
+            <element signature="e#23531#24591#0" />
+            <element signature="e#23802#24016#1" />
+            <element signature="e#24078#24254#1" />
+            <element signature="e#24287#24397#1" />
+            <element signature="e#24403#24585#1" />
+            <element signature="e#24597#27494#0" />
+            <element signature="e#25635#25856#0" />
+            <element signature="e#26006#26159#0" />
+            <element signature="e#26283#26440#0" />
+            <element signature="e#26568#26808#0" />
+            <element signature="e#27500#30341#0" />
+            <element signature="e#27892#28119#0" />
+            <element signature="e#28230#28368#0" />
+            <element signature="e#29221#29578#0" />
+            <element signature="e#29368#29540#1" />
+            <element signature="e#29588#29726#0" />
+            <element signature="e#29736#29973#0" />
+            <element signature="e#29983#30152#0" />
+            <element signature="e#30162#30335#0" />
+            <element signature="e#30347#31962#0" />
+            <element signature="e#30474#30699#0" />
+            <element signature="e#30866#31148#0" />
+            <element signature="class#30926:31137" />
+            <element signature="e#31158#31421#0" />
+            <element signature="e#31242#31360#1" />
+            <element signature="e#31366#31411#1" />
+            <element signature="e#31431#31731#0" />
+            <element signature="e#31523#31658#1" />
+            <element signature="e#31664#31721#1" />
+            <element signature="e#31968#33449#0" />
+            <element signature="e#32128#32259#0" />
+            <element signature="e#32269#33165#0" />
+            <element signature="class#32324:33154" />
+            <element signature="initializer##0;class#32324:33154" />
+            <element signature="method#next#0;class#32324:33154" />
+            <element signature="e#32889#32972#1" />
+            <element signature="e#32978#33122#1" />
+            <element signature="e#33262#33443#0" />
+            <element signature="e#33455#36045#0" />
+            <element signature="e#33699#34868#0" />
+            <element signature="e#34008#34287#1" />
+            <element signature="e#34168#34233#1" />
+            <element signature="class#34416:34780" />
+            <element signature="e#34878#35042#0" />
+            <element signature="e#35148#35464#0" />
+            <element signature="e#35250#35388#1" />
+            <element signature="e#35394#35454#1" />
+            <element signature="e#35474#36039#0" />
+            <element signature="e#35622#35704#1" />
+            <element signature="e#35828#35971#1" />
+            <element signature="e#36051#38388#0" />
+            <element signature="e#36188#36322#0" />
+            <element signature="e#36432#36604#0" />
+            <element signature="e#36614#36785#0" />
+            <element signature="e#36795#36929#0" />
+            <element signature="e#36939#37073#0" />
+            <element signature="e#37352#37485#0" />
+            <element signature="e#37495#37639#0" />
+            <element signature="e#37777#38016#0" />
+            <element signature="e#38026#38197#0" />
+            <element signature="e#38207#38382#0" />
+            <element signature="e#38394#39804#0" />
+            <element signature="e#38761#38951#0" />
+            <element signature="e#38961#39125#0" />
+            <element signature="e#39135#39303#0" />
+            <element signature="e#39430#39798#0" />
+            <element signature="e#39542#39788#1" />
+            <element signature="e#39648#39703#1" />
+            <element signature="e#39810#40231#0" />
+            <element signature="e#40310#40339#0" />
+            <element signature="e#40455#40594#0" />
+            <element signature="e#40604#40622#0" />
+            <element signature="e#40631#40642#0" />
+            <element signature="e#40787#40805#0" />
+            <element signature="e#40814#40825#0" />
+            <element signature="e#41201#41219#0" />
+            <element signature="e#41228#41239#0" />
+            <element signature="e#41412#41430#0" />
+            <element signature="e#41439#41450#0" />
+            <element signature="e#41412#41633#0" />
+            <element signature="e#41643#41661#0" />
+            <element signature="e#41670#41681#0" />
+            <element signature="e#41857#41875#0" />
+            <element signature="e#42069#43203#0" />
+            <element signature="e#42295#42328#0" />
+            <element signature="e#42338#42510#0" />
+            <element signature="e#42388#42445#1" />
+            <element signature="e#42451#42499#1" />
+            <element signature="e#42520#42833#0" />
+            <element signature="e#42611#42656#1" />
+            <element signature="e#42685#42729#1" />
+            <element signature="e#42735#42823#1" />
+            <element signature="e#42843#42985#0" />
+            <element signature="e#42995#43197#0" />
+            <element signature="e#43209#43591#0" />
+            <element signature="e#43287#43320#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="296" column="12" selection-start-line="296" selection-start-column="12" selection-end-line="296" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3100">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3260">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43200">
+          <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hierarchy-uml-plugin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
