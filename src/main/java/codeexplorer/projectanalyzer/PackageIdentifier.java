@@ -1,16 +1,17 @@
 package codeexplorer.projectanalyzer;
 
 import java.io.File;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import static java.util.Arrays.stream;
-import static codeexplorer.projectanalyzer.JavaFileAnalyzer.javaFileFilter;
 import static codeexplorer.projectanalyzer.JavaFileAnalyzer.doesFolderContainJavaFiles;
+import static codeexplorer.projectanalyzer.JavaFileAnalyzer.javaFileFilter;
+import static java.util.Arrays.stream;
 
 public class PackageIdentifier {
-    final String fullPath;
+    private final String fullPath;
     private final File fileObj;
 
     public PackageIdentifier(File folder) {
@@ -26,6 +27,10 @@ public class PackageIdentifier {
         return stream(fileObj.listFiles(javaFileFilter))
                 .map(JavaFileIdentifier::new)
                 .collect(Collectors.toList());
+    }
+
+    public String getUmlNameRelativeTo(Path sourcesRoot) {
+        return sourcesRoot.relativize(this.fileObj.toPath()).toString().replace(File.separator, ".");
     }
 
     @Override

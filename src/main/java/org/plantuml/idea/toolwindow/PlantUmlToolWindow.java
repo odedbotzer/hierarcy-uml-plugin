@@ -261,31 +261,31 @@ public class PlantUmlToolWindow extends JPanel implements Disposable {
                         return;
                     }
 
-                    RenderCacheItem cachedItem = renderCache.getCachedItem(sourceFilePath, source, selectedPage, zoom, fileDocumentManager, VirtualFileManager.getInstance());
-
-                    if (cachedItem == null) {
-                        logger.debug("no cached item");
-                        final File selectedDir = UIUtils.getSelectedDir(fileEditorManager, fileDocumentManager);
-                        lazyExecutor.execute(getCommand(RenderCommand.Reason.REFRESH, sourceFilePath, source, selectedDir, selectedPage, zoom, cachedItem, delay));
-                    } else if (cachedItem.includedFilesChanged(fileDocumentManager, virtualFileManager)) {
-                        logger.debug("includedFilesChanged");
-                        final File selectedDir = UIUtils.getSelectedDir(fileEditorManager, fileDocumentManager);
-                        lazyExecutor.execute(getCommand(RenderCommand.Reason.INCLUDES, sourceFilePath, source, selectedDir, selectedPage, zoom, cachedItem, delay));
-                    } else if (cachedItem.imageMissingOrSourceChanged(source, selectedPage)) {
-                        logger.debug("render required");
-                        final File selectedDir = UIUtils.getSelectedDir(fileEditorManager, fileDocumentManager);
-                        lazyExecutor.execute(getCommand(RenderCommand.Reason.SOURCE_PAGE_ZOOM, sourceFilePath, source, selectedDir, selectedPage, zoom, cachedItem, delay));
-                    } else if (!renderCache.isDisplayed(cachedItem, selectedPage)) {
-                        logger.debug("render not required, displaying cached item ", cachedItem);
-                        displayExistingDiagram(cachedItem);
-                    } else {
-                        logger.debug("render not required, item already displayed ", cachedItem);
-                        if (reason != RenderCommand.Reason.CARET) {
-                            cachedItem.setVersion(sequence.incrementAndGet());
-                            lazyExecutor.cancel();
-                            executionStatusPanel.updateNow(cachedItem.getVersion(), ExecutionStatusPanel.State.DONE, "cached");
-                        }
-                    }
+//                    RenderCacheItem cachedItem = renderCache.getCachedItem(sourceFilePath, source, selectedPage, zoom, fileDocumentManager, VirtualFileManager.getInstance());
+//
+//                    if (cachedItem == null) {
+//                        logger.debug("no cached item");
+//                        final File selectedDir = UIUtils.getSelectedDir(fileEditorManager, fileDocumentManager);
+//                        lazyExecutor.execute(getCommand(RenderCommand.Reason.REFRESH, sourceFilePath, source, selectedDir, selectedPage, zoom, cachedItem, delay));
+//                    } else if (cachedItem.includedFilesChanged(fileDocumentManager, virtualFileManager)) {
+//                        logger.debug("includedFilesChanged");
+//                        final File selectedDir = UIUtils.getSelectedDir(fileEditorManager, fileDocumentManager);
+//                        lazyExecutor.execute(getCommand(RenderCommand.Reason.INCLUDES, sourceFilePath, source, selectedDir, selectedPage, zoom, cachedItem, delay));
+//                    } else if (cachedItem.imageMissingOrSourceChanged(source, selectedPage)) {
+//                        logger.debug("render required");
+//                        final File selectedDir = UIUtils.getSelectedDir(fileEditorManager, fileDocumentManager);
+//                        lazyExecutor.execute(getCommand(RenderCommand.Reason.SOURCE_PAGE_ZOOM, sourceFilePath, source, selectedDir, selectedPage, zoom, cachedItem, delay));
+//                    } else if (!renderCache.isDisplayed(cachedItem, selectedPage)) {
+//                        logger.debug("render not required, displaying cached item ", cachedItem);
+//                        displayExistingDiagram(cachedItem);
+//                    } else {
+//                        logger.debug("render not required, item already displayed ", cachedItem);
+//                        if (reason != RenderCommand.Reason.CARET) {
+//                            cachedItem.setVersion(sequence.incrementAndGet());
+//                            lazyExecutor.cancel();
+//                            executionStatusPanel.updateNow(cachedItem.getVersion(), ExecutionStatusPanel.State.DONE, "cached");
+//                        }
+//                    }
                 }
             }
         });

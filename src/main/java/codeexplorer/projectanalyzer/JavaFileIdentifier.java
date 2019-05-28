@@ -10,7 +10,7 @@ public class JavaFileIdentifier {
 
     private final String fullPath;
     private final File fileObj;
-    
+
     public JavaFileIdentifier(File file) {
         validateAsJavaFile(file);
         this.fileObj = file;
@@ -40,6 +40,12 @@ public class JavaFileIdentifier {
             e.printStackTrace();
             throw new RuntimeException("not really possible");
         }
+    }
+
+    public String getUmlName() {
+        final String extension = ".java";
+        String nameWithExt = this.fileObj.getName();
+        return nameWithExt.substring(0, nameWithExt.length() - extension.length());
     }
 
     @Override

@@ -2,209 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83c2b35c-93aa-4d5f-85c9-50d400d84eea" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/META-INF/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/filefollower/EditorTabFollower.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/filefollower/FollowStarter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/filefollower/FollowStopper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/plantuml/UmlBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/plantuml/UmlRepresentation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/JavaFileAnalyzer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/JavaFileIdentifier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/JavaModuleRootExtractor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/PackageIdentifier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/codeexplorer/projectanalyzer/SourcesAnalyzer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/Salt Wireframe.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Activity.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Class.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Component.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Gantt.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML MindMap.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Object.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Sequence.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML State.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/UML Use Case.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/fileTemplates/internal/Work Breakdown Structure.puml.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceRefresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceRefresh@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceUpdate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/forceUpdate@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/images/uml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddNoSyntaxCheckOptionIntention/after.txt.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddNoSyntaxCheckOptionIntention/before.txt.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddNoSyntaxCheckOptionIntention/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddPartialRenderOptionIntention/after.txt.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddPartialRenderOptionIntention/before.txt.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/AddPartialRenderOptionIntention/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/ReverseArrowIntention/after.txt.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/ReverseArrowIntention/before.txt.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/intentionDescriptions/ReverseArrowIntention/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/InstallationError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AboutAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AbstractSaveDiagramAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AutoHideToolWindowToggleAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AutoPopupToggleAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/AutoRenderToggleAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/CopyDiagramToClipboardAction$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/CopyDiagramToClipboardAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/NextPageAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/PrevPageAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ReloadNowAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SaveAllDiagramToFileAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SaveDiagramToFileAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SelectPageAction$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SelectPageAction$SetPageAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/SelectPageAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ShowSettingsAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/UpdateDiagramsAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomActualAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomInAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/ZoomOutAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramAsTxtToClipboardContextAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramAsUnicodeTxtToClipboardContextAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramToClipboardContextAction$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyDiagramToClipboardContextAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/CopyPlantUmlServerLinkContextAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/ExternalOpenDiagramAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/ExternalOpenDiagramAsPNGAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/ExternalOpenDiagramAsSVGAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/action/context/SaveDiagramToFileContextAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/AddNoSyntaxCheckOptionIntention.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/AddPartialRenderOptionIntention$AddPartialRenderCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/AddPartialRenderOptionIntention.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/Arrow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/ReverseArrowIntention$ReverseArrowCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/intentions/ReverseArrowIntention.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantIUmlFileType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCommenter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCompletionAutoPopupHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCompletionContributor$SimpleProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlCompletionContributor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlFileImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlFileType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlLanguage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlParserDefinition$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlParserDefinition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/PlantUmlTypeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/ErrorSourceAnnotation$PlantUmlIntentionAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/ErrorSourceAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/FileAnnotationResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/LanguageDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/LanguagePatternHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/PlantUmlExternalAnnotator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/SourceAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/SourceAnnotationResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/SyntaxHighlightAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/ConfigExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/PlantUmlSettings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/PlantUmlSettingsPage$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/CreatePlantUMLFileAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml$ImageFormat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUml.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlIncludes$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlIncludes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/DiagramInfo$Titles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/DiagramInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/ImageItem$UrlData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/ImageItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutor$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutor$Delay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PartialRenderingException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlNormalRenderer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlPartialRenderer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlRenderer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlRendererUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCacheItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCommand$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCommand$Reason.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderingCancelledException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/rendering/RenderingType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog$BrowseHyperlinkListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/AboutDialog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/ExecutionStatusPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/ExecutionStatusPanel$State.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/ExecutionStatusPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlApplicationComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlImageLabel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlProjectComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow$MyRenderCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindow.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/SelectedPagePersistentStateComponent$MyLinkedHashMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/SelectedPagePersistentStateComponent$SelectedPages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/SelectedPagePersistentStateComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/Usage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlAncestorListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlCaretListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlDocumentListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlRenderingFileEditorManagerListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/toolwindow/listener/PlantUmlToolWindowOpener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/util/UIUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/hierarchy-uml-plugin/org/plantuml/idea/util/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/codeexplorer/plantuml/UmlBuilderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/codeexplorer/projectanalyzer/SourcesAnalyzerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowTest$AssertStep.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ArrowUtilsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/intentions/ReverseArrowIntentionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/lang/annotator/PlantUmlExternalAnnotatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlRendererUtilTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/plantuml/PlantUmlTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/rendering/LazyApplicationPoolExecutorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/org/plantuml/idea/rendering/PlantUmlPartialRendererTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/afterClassArrows.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/afterSequenceArrows.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/afterSequenceSpecialArrows.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeCaretNotOnArrow.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeClassArrows.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeNotValidArrow.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeSequenceArrows.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/hierarchy-uml-plugin/reverseArrowIntention/beforeSequenceSpecialArrows.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -219,19 +25,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3100">
-              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="408">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/FollowStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="84">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -239,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3260">
+            <state relative-caret-position="133">
               <caret line="202" selection-start-line="202" selection-end-line="202" />
             </state>
           </provider>
@@ -248,26 +54,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="432">
+              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/SourcesAnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="378">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding>
+                <element signature="method#equals#0;class#PackageIdentifier#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -275,10 +93,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="357">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+              <folding>
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -287,17 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43200">
-              <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
+            <state relative-caret-position="1281">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -316,6 +138,10 @@
       <find>addAll(</find>
       <find>out</find>
       <find>.idea</find>
+      <find>Alice</find>
+      <find>JavaFileIdentifier(</find>
+      <find>new JavaFileIdentifier(</find>
+      <find>class</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -325,11 +151,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/SourcesAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java" />
       </list>
     </option>
   </component>
@@ -341,9 +173,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="977" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -353,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,11 +193,59 @@
               <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="filefollower" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="projectanalyzer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -459,14 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558825477321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1558826059201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558826059201</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27092275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,9 +362,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5681818" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24216524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -485,7 +373,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
@@ -494,60 +382,12 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="PlantUML" order="8" visible="true" weight="0.3299356" />
+      <window_info anchor="right" x="652" y="74" width="615" height="881" id="PlantUML" maximized="true" order="8" type="WINDOWED" weight="0.3299356" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java</url>
-          <line>202</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -559,6 +399,30 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>uml</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;package &quot; + packageAndFiles.getKey().getRelativePath(sourcesRoot) +
+                packageAndFiles.getValue().stream().map(JavaFileIdentifier::toString).reduce(UmlRepresentation::concateWithSingleNewLine).orElse(&quot;&quot;) +
+                &quot;\n}&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;package &quot; + packageAndFiles.getKey().getRelativePath(sourcesRoot) + &quot; {\n&quot; +
+                packageAndFiles.getValue().stream().map(JavaFileIdentifier::toString).reduce(UmlRepresentation::concateWithSingleNewLine).orElse(&quot;&quot;) +
+                &quot;}&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.fileObj.toPath().relativize(sourcesRoot).toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>umlBuilder.setFocusedFile(focusedFile).build().writeUml()</expression-string>
         <language-id>JAVA</language-id>
@@ -581,26 +445,6 @@
       </expression>
       <expression>
         <expression-string>Messages.showYesNoCancelDialog(project, &quot;Analyze &quot; + moduleFile.getName() + &quot; module?&quot;, &quot;Choose module to analyze&quot;, getQuestionIcon())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new File(startFolder.getAbsolutePath() + File.separator + url.substring(offset))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>startFolder.getAbsolutePath() + File.separator + url.substring(offset)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>startFolder.getAbsolutePath() + url.substring(offset)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>startFolder</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1235,6 +1079,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3100">
@@ -1242,41 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3260">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#1216#1217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1287,24 +1103,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/rendering/RenderCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="265">
+          <caret line="64" column="63" lean-forward="true" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/rendering/RenderRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/fileEditor/impl/EditorTabTitleProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/SourcesAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="method#equals#0;class#PackageIdentifier#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#1248#1249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="432">
+          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="133">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/FollowStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>

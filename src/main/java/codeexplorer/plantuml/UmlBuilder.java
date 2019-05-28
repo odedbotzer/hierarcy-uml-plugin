@@ -4,6 +4,7 @@ import codeexplorer.projectanalyzer.JavaFileIdentifier;
 import codeexplorer.projectanalyzer.PackageIdentifier;
 import com.google.common.collect.Sets;
 
+import java.nio.file.Path;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -15,8 +16,13 @@ public class UmlBuilder {
     private Set<JavaFileIdentifier> additionalFiles = Sets.newHashSet();
     private Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies = newHashMap();
     private Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies = newHashMap();
+    private final Path sourceRootPath;
     @SuppressWarnings("OptionalUsedAsFieldOrParameterType")
     private Optional<JavaFileIdentifier> focusedFile = Optional.empty();
+
+    public UmlBuilder(Path sourceRootPath) {
+        this.sourceRootPath = sourceRootPath;
+    }
 
     public UmlBuilder addFiles(Set<JavaFileIdentifier> additionalFiles) {
         this.additionalFiles = Sets.union(this.additionalFiles, additionalFiles);
@@ -50,7 +56,7 @@ public class UmlBuilder {
     }
 
     public UmlRepresentation build() {
-        return new UmlRepresentation(this.packageDependencies, this.fileDependencies, this.additionalFiles, this.focusedFile);
+        return new UmlRepresentation(this.packageDependencies, this.fileDependencies, this.additionalFiles, this.sourceRootPath, this.focusedFile);
     }
 
 }

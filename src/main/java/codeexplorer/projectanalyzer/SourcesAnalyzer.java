@@ -5,6 +5,7 @@ import com.intellij.openapi.project.Project;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -21,14 +22,14 @@ import static java.util.stream.Collectors.*;
 
 public class SourcesAnalyzer {
 
-    private final File srcFolder;
+    private final File sourceRoot;
     private Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies;
     private Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies;
     private Set<PackageIdentifier> srcPackages;
 
-    public SourcesAnalyzer(File srcFolder) {
-        validateSrcFolder(srcFolder);
-        this.srcFolder = srcFolder;
+    public SourcesAnalyzer(File sourceRoot) {
+        validateSrcFolder(sourceRoot);
+        this.sourceRoot = sourceRoot;
     }
 
     public SourcesAnalyzer(Project project) {
@@ -38,6 +39,10 @@ public class SourcesAnalyzer {
     @NotNull
     private static Stream<File> subFoldersStream(File folder) {
         return stream(folder.listFiles(path -> path.isDirectory()));
+    }
+
+    public Path getSourceRootPath() {
+        return sourceRoot.toPath();
     }
 
     public Set<PackageIdentifier> getSrcPackages() {
@@ -72,7 +77,7 @@ public class SourcesAnalyzer {
 
     private Set<PackageIdentifier> findAllSrcPackages() {
         Set<PackageIdentifier> packages = Sets.newHashSet();
-        addAllPakcagesWithinFolder(packages, srcFolder);
+        addAllPakcagesWithinFolder(packages, sourceRoot);
         return packages;
     }
 
@@ -118,7 +123,7 @@ public class SourcesAnalyzer {
 
     private Optional<JavaFileIdentifier> relativeClassPathToJavaFile(String relativeClassPath) {
         try {
-            return Optional.of(new JavaFileIdentifier(this.srcFolder.getAbsolutePath() + File.separator + relativeClassPath + ".java"));
+            return Optional.of(new JavaFileIdentifier(this.sourceRoot.getAbsolutePath() + File.separator + relativeClassPath + ".java"));
         } catch (RuntimeException e) {
             return Optional.empty();
         }

@@ -36,7 +36,7 @@ public class PlantUmlToolWindowFactory implements ToolWindowFactory, DumbAware {
     private void initializeUmlBuilder(Project project) {
         try {
             SourcesAnalyzer sourcesAnalyzer = new SourcesAnalyzer(project);
-            umlBuilder = new UmlBuilder().addPackageDependencies(sourcesAnalyzer.getPackageDependencies());
+            umlBuilder = new UmlBuilder(sourcesAnalyzer.getSourceRootPath()).addPackageDependencies(sourcesAnalyzer.getPackageDependencies());
         } catch (Exception e) {
             Messages.showErrorDialog("Error initializing sources analyzer: " + e.getLocalizedMessage(), "ERROR");
         }
