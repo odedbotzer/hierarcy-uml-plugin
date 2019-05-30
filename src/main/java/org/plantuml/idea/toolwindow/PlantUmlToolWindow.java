@@ -205,27 +205,27 @@ public class PlantUmlToolWindow extends JPanel implements Disposable {
             @Override
             public void run() {
                 if (isProjectValid(project)) {
-//                    final String source = UIUtils.getSelectedSourceWithCaret(fileEditorManager);
+                    String source = UIUtils.getSelectedSourceWithCaret(fileEditorManager);
 
-//                    if ("".equals(source)) { //is included file or some crap?
-//                        logger.debug("empty source");
-//                        VirtualFile selectedFile = UIUtils.getSelectedFile(fileEditorManager, fileDocumentManager);
-//                        RenderCacheItem last = renderCache.getDisplayedItem(); //todo check all items for included file?
-//
-////                        if (last != null && reason == RenderCommand.Reason.FILE_SWITCHED) {
-////                            selectedPage = selectedPagePersistentStateComponent.getPage(last.getSourceFilePath());
-////                            logger.debug("file switched, setting selected page ",selectedPage);
-////                        }
-//
+                    if ("".equals(source)) { //is included file or some crap?
+                        logger.debug("empty source");
+                        VirtualFile selectedFile = UIUtils.getSelectedFile(fileEditorManager, fileDocumentManager);
+                        RenderCacheItem last = renderCache.getDisplayedItem(); //todo check all items for included file?
+
+//                        if (last != null && reason == RenderCommand.Reason.FILE_SWITCHED) {
+//                            selectedPage = selectedPagePersistentStateComponent.getPage(last.getSourceFilePath());
+//                            logger.debug("file switched, setting selected page ",selectedPage);
+//                        }
+
 //                        if (last != null && reason == RenderCommand.Reason.REFRESH) {
 //                            logger.debug("empty source, executing command, reason=", reason);
 //                            lazyExecutor.execute(getCommand(RenderCommand.Reason.REFRESH, last.getSourceFilePath(), last.getSource(), last.getBaseDir(), selectedPage, zoom, null, delay));
 //                        }
-//                        if (last != null && reason == RenderCommand.Reason.SOURCE_PAGE_ZOOM) {
-//                            logger.debug("empty source, executing command, reason=", reason);
-//                            lazyExecutor.execute(getCommand(RenderCommand.Reason.SOURCE_PAGE_ZOOM, last.getSourceFilePath(), last.getSource(), last.getBaseDir(), selectedPage, zoom, null, delay));
-//                        }
-//
+                        if (last != null && reason == RenderCommand.Reason.SOURCE_PAGE_ZOOM) {
+                            logger.debug("empty source, executing command, reason=", reason);
+                            lazyExecutor.execute(getCommand(RenderCommand.Reason.SOURCE_PAGE_ZOOM, last.getSourceFilePath(), last.getSource(), last.getBaseDir(), selectedPage, zoom, null, delay));
+                        }
+
 //                        if (last != null && last.isIncludedFile(selectedFile)) {
 //                            logger.debug("include file selected");
 //                            if (last.includedFilesChanged(fileDocumentManager, virtualFileManager)) {
@@ -246,7 +246,7 @@ public class PlantUmlToolWindow extends JPanel implements Disposable {
 //                        return;
 //                    }
 
-                    final String source = umlString;
+                    source = umlString;
 
                     String sourceFilePath = UIUtils.getSelectedFile(fileEditorManager, fileDocumentManager).getPath();
 
@@ -285,7 +285,7 @@ public class PlantUmlToolWindow extends JPanel implements Disposable {
 //                            lazyExecutor.cancel();
 //                            executionStatusPanel.updateNow(cachedItem.getVersion(), ExecutionStatusPanel.State.DONE, "cached");
 //                        }
-//                    }
+                    }
                 }
             }
         });

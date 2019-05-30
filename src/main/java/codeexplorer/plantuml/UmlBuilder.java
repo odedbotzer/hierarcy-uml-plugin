@@ -1,5 +1,6 @@
 package codeexplorer.plantuml;
 
+import codeexplorer.projectanalyzer.JavaContainmentEntity;
 import codeexplorer.projectanalyzer.JavaFileIdentifier;
 import codeexplorer.projectanalyzer.PackageIdentifier;
 import com.google.common.collect.Sets;
@@ -13,15 +14,15 @@ import static com.google.common.collect.Maps.newHashMap;
 import static com.google.common.collect.Sets.newHashSet;
 
 public class UmlBuilder {
+    private final JavaContainmentEntity rootEntity;
     private Set<JavaFileIdentifier> additionalFiles = Sets.newHashSet();
     private Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies = newHashMap();
     private Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies = newHashMap();
-    private final Path sourceRootPath;
     @SuppressWarnings("OptionalUsedAsFieldOrParameterType")
     private Optional<JavaFileIdentifier> focusedFile = Optional.empty();
 
-    public UmlBuilder(Path sourceRootPath) {
-        this.sourceRootPath = sourceRootPath;
+    public UmlBuilder(JavaContainmentEntity rootEntity) {
+        this.rootEntity = rootEntity;
     }
 
     public UmlBuilder addFiles(Set<JavaFileIdentifier> additionalFiles) {
@@ -56,7 +57,7 @@ public class UmlBuilder {
     }
 
     public UmlRepresentation build() {
-        return new UmlRepresentation(this.packageDependencies, this.fileDependencies, this.additionalFiles, this.sourceRootPath, this.focusedFile);
+        return new UmlRepresentation(this.packageDependencies, this.fileDependencies, this.focusedFile, this.rootEntity, this.additionalFiles);
     }
 
 }

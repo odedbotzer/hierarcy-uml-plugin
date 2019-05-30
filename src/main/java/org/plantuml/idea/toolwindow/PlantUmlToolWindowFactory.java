@@ -1,7 +1,10 @@
 package org.plantuml.idea.toolwindow;
 
 import codeexplorer.plantuml.UmlBuilder;
-import codeexplorer.projectanalyzer.SourcesAnalyzer;
+import codeexplorer.projectanalyzer.DependencyAnalyzer;
+import codeexplorer.projectanalyzer.HierarchyAnalyzer;
+import codeexplorer.projectanalyzer.JavaContainmentEntity;
+import codeexplorer.projectanalyzer.JavaModuleRootExtractor;
 import com.intellij.openapi.project.DumbAware;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
@@ -10,6 +13,8 @@ import com.intellij.openapi.wm.ToolWindowFactory;
 import com.intellij.ui.content.Content;
 import com.intellij.ui.content.ContentFactory;
 import org.jetbrains.annotations.NotNull;
+
+import java.io.File;
 
 /**
  * @author Eugene Steinberg
@@ -35,8 +40,11 @@ public class PlantUmlToolWindowFactory implements ToolWindowFactory, DumbAware {
 
     private void initializeUmlBuilder(Project project) {
         try {
-            SourcesAnalyzer sourcesAnalyzer = new SourcesAnalyzer(project);
-            umlBuilder = new UmlBuilder(sourcesAnalyzer.getSourceRootPath()).addPackageDependencies(sourcesAnalyzer.getPackageDependencies());
+            File moduleRootDir = (new JavaModuleRootExtractor(project)).getModuleRootDir();
+            HierarchyAnalyzer hierarchyAnalyzer = new HierarchyAnalyzer(moduleRootDir);
+            JavaContainmentEntity rootEntity = hierarchyAnalyzer.getRootEntity();
+            DependencyAnalyzer dependencyAnalyzer = new DependencyAnalyzer(rootEntity);
+            umlBuilder = new UmlBuilder(rootEntity).addPackageDependencies(dependencyAnalyzer.getPackageDependencies());
         } catch (Exception e) {
             Messages.showErrorDialog("Error initializing sources analyzer: " + e.getLocalizedMessage(), "ERROR");
         }

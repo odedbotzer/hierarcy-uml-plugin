@@ -4,9 +4,14 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.Reader;
+import java.nio.file.Path;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
-public class JavaFileIdentifier {
+import static com.google.common.collect.Sets.newHashSet;
+
+public class JavaFileIdentifier implements JavaContainmentEntity {
 
     private final String fullPath;
     private final File fileObj;
@@ -42,10 +47,35 @@ public class JavaFileIdentifier {
         }
     }
 
-    public String getUmlName() {
+    public String getNameWithExtension() {
         final String extension = ".java";
         String nameWithExt = this.fileObj.getName();
         return nameWithExt.substring(0, nameWithExt.length() - extension.length());
+    }
+
+    @Override
+    public HashSet<JavaContainmentEntity> getContainedEntities() {
+        return newHashSet();
+    }
+
+    @Override
+    public JavaEntityType getJavaEntityType() {
+        return JavaEntityType.JAVA_FILE;
+    }
+
+    @Override
+    public String getUmlContainmentString(Path parent) {
+        return "class " + getNameWithExtension();
+    }
+
+    @Override
+    public File getFile() {
+        return this.fileObj;
+    }
+
+    @Override
+    public String toString() {
+        return this.fileObj.getName();
     }
 
     @Override
@@ -59,10 +89,5 @@ public class JavaFileIdentifier {
     @Override
     public int hashCode() {
         return Objects.hash(fullPath);
-    }
-
-    @Override
-    public String toString() {
-        return this.fileObj.getName();
     }
 }
