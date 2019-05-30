@@ -23,6 +23,7 @@ public class UmlRepresentation {
     private final Map<PackageIdentifier, Set<JavaFileIdentifier>> containmentMap;
     private final Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies;
     private final Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies;
+    private final String FOCUS_COLOR_STR = " #GreenYellow/LightGoldenRodYellow ";
 
     public UmlRepresentation(Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies,
                              Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies,
@@ -104,22 +105,23 @@ public class UmlRepresentation {
         uml += "\n";
         uml += getPackageDependenciesUml();
         uml += "\n";
-        uml += getFocusedFileUml();
-        uml += "\n";
         uml += getUmlClosing();
-        return uml;
+        return colorFocusedFile(uml);
     }
 
     @NotNull
     private String getContainmentUml() {
         return this.rootEntity.getContainedEntities().stream()
-                .map(subEntity -> subEntity.getUmlContainmentString(this.sourcesRoot))
+                .map(subEntity -> subEntity.getUmlContainmentString(this.sourcesRoot, this.sourcesRoot))
                 .reduce(UmlRepresentation::concatWithDoubleNewLine)
                 .orElse("");
     }
 
-    private String getFocusedFileUml() {
-        return this.focusedFile.map(file -> "").orElse("");
+    private String colorFocusedFile(String umlSoFar) {
+        String unfocused = umlSoFar.replace(FOCUS_COLOR_STR, " ");
+        return this.focusedFile
+                .map(focused -> unfocused.replace(focused.getUmlString(), focused.getUmlString() + FOCUS_COLOR_STR))
+                .orElse(unfocused);
     }
 
     @NotNull

@@ -85,17 +85,17 @@ public class PackageIdentifier implements JavaContainmentEntity {
     }
 
     @Override
-    public String getUmlContainmentString(Path parent) {
+    public String getUmlContainmentString(Path parent, Path sourcesRoot) {
         if (!getJavaEntityType().equals(JavaEntityType.PACKAGE))
             throw new RuntimeException("package is of type " + getJavaEntityType().name() + ", but should have been of type PACKAGE");
 
-        return "package " + getUmlNameRelativeTo(parent) + " {" +
+        return "\n package " + getUmlNameRelativeTo(parent) + " as " + getUmlNameRelativeTo(sourcesRoot) + " {" +
                 "\n  " + getContainedEntities().stream()
-                .map(entity -> entity.getUmlContainmentString(this.fileObj.toPath()))
+                .map(entity -> entity.getUmlContainmentString(this.fileObj.toPath(), sourcesRoot))
                 .reduce(UmlRepresentation::concatWithSingleNewLine)
                 .orElse("")
                 .replace("\n", "\n  ")
-                + "\n}";
+                + "\n }";
     }
 
     @Override

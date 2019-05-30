@@ -1,5 +1,7 @@
 package codeexplorer.projectanalyzer;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -7,7 +9,6 @@ import java.io.Reader;
 import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.Objects;
-import java.util.Set;
 
 import static com.google.common.collect.Sets.newHashSet;
 
@@ -64,7 +65,12 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
     }
 
     @Override
-    public String getUmlContainmentString(Path parent) {
+    public String getUmlContainmentString(Path parent, Path sourcesRoot) {
+        return getUmlString();
+    }
+
+    @NotNull
+    public String getUmlString() {
         return "class " + getNameWithExtension();
     }
 
