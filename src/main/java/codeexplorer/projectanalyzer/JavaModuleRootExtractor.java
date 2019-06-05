@@ -13,43 +13,15 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-import static com.intellij.openapi.ui.Messages.getQuestionIcon;
-
 public class JavaModuleRootExtractor {
-    private final Project project;
     private final File moduleImlFile;
     private final String moduleName;
     private final File moduleRootDir;
 
-    public JavaModuleRootExtractor(Project project) {
-        this.project = project;
-        this.moduleImlFile = chooseModuleImlFile();
+    public JavaModuleRootExtractor(File moduleImlFile) {
+        this.moduleImlFile = moduleImlFile;
         this.moduleName = this.moduleImlFile.getName();
         this.moduleRootDir = extractModuleRootDirectory();
-    }
-
-    private File chooseModuleImlFile() {
-        try {
-            String miscFilePath = new File(project.getProjectFile().getPath()).getPath();
-            String modulesFilePath = miscFilePath.substring(0, miscFilePath.lastIndexOf(File.separator) + 1) + "modules.xml";
-            DocumentBuilder dBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            Document doc = dBuilder.parse(new FileInputStream(modulesFilePath));
-            NodeList modules = doc.getElementsByTagName("module");
-            for (int i = 0; i < modules.getLength(); i++) {
-                NamedNodeMap attrs = modules.item(i).getAttributes();
-                File moduleFile = new File(attrs.getNamedItem("filepath").getNodeValue().replace("$PROJECT_DIR$", project.getBasePath()));
-                int result = Messages.showYesNoCancelDialog(project, "Analyze " + moduleFile.getName() + " module?", "Choose module to analyze", getQuestionIcon());
-                if (result == 0) //0 is YES
-                    return moduleFile;
-            }
-            Messages.showInfoMessage("No source module to analyze", "NOTICE");
-            throw new RuntimeException();
-        } catch (RuntimeException re) {
-            throw re;
-        } catch (Exception e) {
-            Messages.showErrorDialog("Could not analyze project structure: modules.xml file should be in the same directory as misc.xml", "ERROR");
-            throw new RuntimeException();
-        }
     }
 
     private File extractModuleRootDirectory() {

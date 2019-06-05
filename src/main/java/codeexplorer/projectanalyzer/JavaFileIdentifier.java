@@ -71,7 +71,7 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
 
     @NotNull
     public String getUmlString() {
-        return "class " + getNameWithExtension();
+        return "hide class " + getNameWithExtension();
     }
 
     @Override

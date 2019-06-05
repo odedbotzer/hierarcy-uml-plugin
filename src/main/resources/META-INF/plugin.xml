@@ -155,11 +155,15 @@
             </action>
 
             <separator/>
-            <action id="PlantUML.StartFollow" description="Start following editor"
+<!--            <action id="PlantUML.OverviewMode" description="Restart Overview Mode"-->
+<!--                    class="codeexplorer.filefollower.FollowStopper"-->
+<!--                    text="Stop following">-->
+<!--            </action>-->
+            <action id="PlantUML.StartFollow" description="Restart following editor"
                     class="codeexplorer.filefollower.FollowStarter"
                     text="Start following">
             </action>
-            <action id="PlantUML.StopFollow" description="Stop following editor"
+            <action id="PlantUML.StopFollow" description="Stop analysis"
                     class="codeexplorer.filefollower.FollowStopper"
                     text="Stop following">
             </action>
@@ -233,7 +237,8 @@
         </intentionAction>
 
         <toolWindow id="PlantUML" icon="/images/uml.png" anchor="right"
-                    factoryClass="org.plantuml.idea.toolwindow.PlantUmlToolWindowFactory"/>
+                    factoryClass="org.plantuml.idea.toolwindow.PlantUmlToolWindowFactory"
+                    conditionClass="org.plantuml.idea.toolwindow.PlantUmlToolWindowFactory"/>
         <fileTypeFactory implementation="org.plantuml.idea.lang.PlantUmlTypeFactory"/>
         <lang.parserDefinition language="PUML"
                                implementationClass="org.plantuml.idea.lang.PlantUmlParserDefinition"/>
