@@ -1,11 +1,11 @@
 package codeexplorer.plantuml;
 
+import codeexplorer.projectanalyzer.AnalyzerMode;
 import codeexplorer.projectanalyzer.JavaContainmentEntity;
 import codeexplorer.projectanalyzer.JavaFileIdentifier;
 import codeexplorer.projectanalyzer.PackageIdentifier;
 import com.google.common.collect.Sets;
 
-import java.nio.file.Path;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -25,13 +25,8 @@ public class UmlBuilder {
         this.rootEntity = rootEntity;
     }
 
-    public UmlBuilder addFiles(Set<JavaFileIdentifier> additionalFiles) {
-        this.additionalFiles = Sets.union(this.additionalFiles, additionalFiles);
-        return this;
-    }
-
-    public UmlBuilder addFileDependencies(Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies) {
-        fileDependencies.forEach((key, value) -> this.fileDependencies.merge(key, value, Sets::union));
+    public UmlBuilder addFileDependencies(JavaFileIdentifier fromFile, Set<JavaFileIdentifier> toFiles) {
+        this.fileDependencies.merge(fromFile, toFiles, Sets::union);
         return this;
     }
 
@@ -51,13 +46,8 @@ public class UmlBuilder {
         return this;
     }
 
-    public UmlBuilder releaseFocusedDile() {
-        this.focusedFile = Optional.empty();
-        return this;
-    }
-
-    public UmlRepresentation build() {
-        return new UmlRepresentation(this.packageDependencies, this.fileDependencies, this.focusedFile, this.rootEntity, this.additionalFiles);
+    public UmlRepresentation build(AnalyzerMode mode) {
+        return new UmlRepresentation(this.packageDependencies, this.fileDependencies, this.focusedFile, this.rootEntity, this.additionalFiles, mode);
     }
 
 }

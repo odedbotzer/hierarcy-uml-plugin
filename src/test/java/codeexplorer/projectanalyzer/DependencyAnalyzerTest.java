@@ -6,6 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
+import java.nio.file.NoSuchFileException;
 import java.util.Map;
 import java.util.Set;
 
@@ -32,6 +33,9 @@ public class DependencyAnalyzerTest {
     private final PackageIdentifier p4 = new PackageIdentifier(new File("C:\\Users\\odedbotzer\\IdeaProjects\\code-explorer\\src\\test\\resources\\java\\upper\\projectanalyzer"));
     private DependencyAnalyzer dependencyAnalyzer;
     private Set<PackageIdentifier> packages;
+
+    public DependencyAnalyzerTest() throws NoSuchFileException {
+    }
 
     @Before
     public void calcPackages() {

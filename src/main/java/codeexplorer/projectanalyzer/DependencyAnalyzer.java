@@ -39,6 +39,10 @@ public class DependencyAnalyzer {
         return fileDependencies;
     }
 
+    public Set<JavaFileIdentifier> getFileDependencies(JavaFileIdentifier fromFile) {
+        return getFileDependencies().get(fromFile);
+    }
+
     @NotNull
     private Map<JavaFileIdentifier, Set<JavaFileIdentifier>> analyzeAllFileDependencies() {
         return getSrcPackages().stream()
@@ -57,11 +61,7 @@ public class DependencyAnalyzer {
     }
 
     private Optional<JavaFileIdentifier> relativeClassPathToJavaFile(String relativeClassPath) {
-        try {
-            return Optional.of(new JavaFileIdentifier(this.sourceRoot.getAbsolutePath() + File.separator + relativeClassPath + ".java"));
-        } catch (RuntimeException e) {
-            return Optional.empty();
-        }
+        return JavaFileIdentifier.createOptional(this.sourceRoot.getAbsolutePath() + File.separator + relativeClassPath + ".java");
     }
 
     public Set<JavaFileIdentifier> getReverseFileDependencies(JavaFileIdentifier toFile) {

@@ -39,7 +39,7 @@ public interface JavaContainmentEntity {
         return parent.relativize(getFile().toPath()).toString().replace(File.separator, ".");
     }
 
-    String getUmlContainmentString(Path parent, Path sourcesRoot);
+    String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode);
 
     File getFile();
 

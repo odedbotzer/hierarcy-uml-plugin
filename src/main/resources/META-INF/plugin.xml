@@ -143,57 +143,37 @@
 
     <actions>
         <group id="PlantUML.Toolbar" description="PlantUML Toolbar">
-            <action id="PlantUML.Update" description="Update PlantUml Diagrams"
-                    class="org.plantuml.idea.action.UpdateDiagramsAction"
-                    icon="/javaee/updateRunningApplication.png" text="Update PlantUml Diagrams - changes only">
-                <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift F"/>
+            <action id="PlantUML.Rebuild" description="Rebuild"
+                    class="codeexplorer.listeners.RebuildNow"
+                    icon="/actions/refresh.png" text="Rebuild">
             </action>
-            <action id="PlantUML.Reload" description="Reload PlantUml Diagrams"
-                    class="org.plantuml.idea.action.ReloadNowAction"
-                    icon="/actions/refresh.png" text="Reload PlantUml Diagrams">
-                <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift G"/>
+            <action id="PlantUML.OverviewMode" description="package-overview mode"
+                    class="codeexplorer.listeners.PackageOverviewer"
+                    text="package-overview mode">
             </action>
-
-            <separator/>
-<!--            <action id="PlantUML.OverviewMode" description="Restart Overview Mode"-->
-<!--                    class="codeexplorer.filefollower.FollowStopper"-->
-<!--                    text="Stop following">-->
-<!--            </action>-->
-            <action id="PlantUML.StartFollow" description="Restart following editor"
-                    class="codeexplorer.filefollower.FollowStarter"
-                    text="Start following">
+            <action id="PlantUML.ClassExploreStarter" description="start class-exploring"
+                    class="codeexplorer.listeners.ClassExploreStarter"
+                    text="start class-exploring">
+            </action>
+            <action id="PlantUML.PackageExploreStarter" description="start package-exploring"
+                    class="codeexplorer.listeners.PackageExploreStarter"
+                    text="start package-exploring">
             </action>
             <action id="PlantUML.StopFollow" description="Stop analysis"
-                    class="codeexplorer.filefollower.FollowStopper"
-                    text="Stop following">
+                    class="codeexplorer.listeners.FollowStopper"
+                    text="Stop analysis">
             </action>
 
             <separator/>
-            <action id="PlantUML.CopyToClipboard" description="Copy Current Diagram to Clipboard"
-                    class="org.plantuml.idea.action.CopyDiagramToClipboardAction"
-                    icon="/actions/copy.png" text="Copy Current Diagram to Clipboard"
-            />
             <action id="PlantUML.SaveToFile" description="Save Current Diagram Only"
                     class="org.plantuml.idea.action.SaveDiagramToFileAction"
                     icon="/actions/menu-saveall.png" text="Save Current Diagram Only"/>
-            <action id="PlantUML.SaveAllToFile" description="Save All Diagrams"
-                    class="org.plantuml.idea.action.SaveAllDiagramToFileAction"
-                    icon="/actions/export.png" text="Save All Diagrams in Current File"/>
-            <separator/>
-
             <action id="PlantUML.ZoomIn" description="Zoom In" class="org.plantuml.idea.action.ZoomInAction"
                     icon="/graph/zoomIn.png" text="Zoom In"/>
-            <action id="PlantUML.ZoomOut" description="Zoom In" class="org.plantuml.idea.action.ZoomOutAction"
+            <action id="PlantUML.ZoomOut" description="Zoom Out" class="org.plantuml.idea.action.ZoomOutAction"
                     icon="/graph/zoomOut.png" text="Zoom Out"/>
             <action id="PlantUML.ZoomActual" description="Actual Zoom" class="org.plantuml.idea.action.ZoomActualAction"
                     icon="/graph/actualZoom.png" text="Actual Zoom"/>
-            <separator/>
-
-            <action id="PlantUML.PrevPage" description="Prev Page" class="org.plantuml.idea.action.PrevPageAction"
-                    icon="/actions/back.png" text="Previous Page"/>
-            <action id="PlantUML.NextPage" description="Next Page" class="org.plantuml.idea.action.NextPageAction"
-                    icon="/actions/forward.png" text="Next Page"/>
-
             <separator/>
 
             <group id="PlantUML.Settings" icon="/general/settings.png" popup="true">
@@ -254,6 +234,6 @@
         <typedHandler implementation="org.plantuml.idea.lang.PlantUmlCompletionAutoPopupHandler"
                       id="PlantUmlCompletionAutoPopupHandler"/>
 
-        <editorTabTitleProvider implementation="codeexplorer.filefollower.EditorTabFollower" />
+        <editorTabTitleProvider implementation="codeexplorer.listeners.EditorTabFollower" />
     </extensions>
 </idea-plugin>

@@ -6,9 +6,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.Reader;
+import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.Objects;
+import java.util.Optional;
 
 import static com.google.common.collect.Sets.newHashSet;
 
@@ -16,23 +18,36 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
 
     private final String fullPath;
     private final File fileObj;
+    private String umlString;
 
-    public JavaFileIdentifier(File file) {
+    public JavaFileIdentifier(File file) throws NoSuchFileException {
         validateAsJavaFile(file);
         this.fileObj = file;
         this.fullPath = file.getAbsolutePath();
     }
 
-    public JavaFileIdentifier(String fullPath) {
+    public JavaFileIdentifier(String fullPath) throws NoSuchFileException {
         this(new File(fullPath));
     }
 
-    private static void validateAsJavaFile(File file) {
+    private static void validateAsJavaFile(File file) throws NoSuchFileException {
         String absolutePath = file.getAbsolutePath();
         if (!file.isFile())
-            throw new RuntimeException(absolutePath + " is not a file");
+            throw new NoSuchFileException(absolutePath + " is not a file");
         if (!absolutePath.endsWith(".java"))
-            throw new RuntimeException(absolutePath + " is not a java file");
+            throw new NoSuchFileException(absolutePath + " is not a java file");
+    }
+
+    static Optional<JavaFileIdentifier> createOptional(File file) {
+        try {
+            return Optional.of(new JavaFileIdentifier(file));
+        } catch (NoSuchFileException ignored) {
+            return Optional.empty();
+        }
+    }
+
+    static Optional<JavaFileIdentifier> createOptional(String fullPath) {
+        return createOptional(new File(fullPath));
     }
 
     public PackageIdentifier getPackage() {
@@ -48,7 +63,7 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
         }
     }
 
-    public String getNameWithExtension() {
+    public String getNameWithoutExtension() {
         final String extension = ".java";
         String nameWithExt = this.fileObj.getName();
         return nameWithExt.substring(0, nameWithExt.length() - extension.length());
@@ -65,13 +80,27 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
     }
 
     @Override
-    public String getUmlContainmentString(Path parent, Path sourcesRoot) {
-        return getUmlString();
+    public String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode) {
+        umlString = getUmlString(sourcesRoot, mode);
+        return umlString;
     }
 
     @NotNull
-    public String getUmlString() {
-        return "hide class " + getNameWithExtension();
+    public String getUmlString(Path sourcesRoot, AnalyzerMode mode) {
+        String base = getRegularUmlString(sourcesRoot);
+        if(!mode.equals(AnalyzerMode.CLASS_FOLLOWER))
+            return "hide " + base;
+        return base;
+    }
+
+    @NotNull
+    private String getRegularUmlString(Path sourcesRoot) {
+        return "class " + getNameWithoutExtension() + " as " + getUmlNameRelativeTo(sourcesRoot);
+    }
+
+    @NotNull
+    public String getUmlString(Path sourcesRoot) {
+        return umlString == null ? getRegularUmlString(sourcesRoot) : umlString;
     }
 
     @Override
