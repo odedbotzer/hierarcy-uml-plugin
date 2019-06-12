@@ -155,10 +155,10 @@
                     class="codeexplorer.listeners.ClassExploreStarter"
                     text="start class-exploring">
             </action>
-            <action id="PlantUML.PackageExploreStarter" description="start package-exploring"
-                    class="codeexplorer.listeners.PackageExploreStarter"
-                    text="start package-exploring">
-            </action>
+<!--            <action id="PlantUML.PackageExploreStarter" description="start package-exploring"-->
+<!--                    class="codeexplorer.listeners.PackageExploreStarter"-->
+<!--                    text="start package-exploring">-->
+<!--            </action>-->
             <action id="PlantUML.StopFollow" description="Stop analysis"
                     class="codeexplorer.listeners.FollowStopper"
                     text="Stop analysis">

@@ -8,9 +8,6 @@ import com.intellij.openapi.ui.Messages;
 import static org.plantuml.idea.toolwindow.PlantUmlToolWindowFactory.moduleAnalyzer;
 
 public class ClassExploreStarter extends AnAction {
-    public ClassExploreStarter() {
-        super("start class-exploring");
-    }
 
     public void actionPerformed(AnActionEvent event) {
         moduleAnalyzer.analyzerMode = AnalyzerMode.CLASS_FOLLOWER;

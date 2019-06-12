@@ -12,20 +12,17 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
-import static codeexplorer.projectanalyzer.JavaEntityType.PACKAGE;
 import static com.google.common.collect.Sets.newHashSet;
-import static java.util.stream.Collectors.toMap;
-import static java.util.stream.Collectors.toSet;
+import static com.google.common.collect.Sets.union;
 
 public class UmlRepresentation {
     private final Path sourcesRoot;
     private final AnalyzerMode mode;
     private final Optional<JavaFileIdentifier> focusedFile;
     private final JavaContainmentEntity rootEntity;
-    private final Map<PackageIdentifier, Set<JavaFileIdentifier>> containmentMap;
     private final Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies;
     private final Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies;
-    private final String FOCUS_COLOR_STR = " #GreenYellow/LightGoldenRodYellow ";
+    private final Set<JavaContainmentEntity> allEntities;
 
     public UmlRepresentation(Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies,
                              Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies,
@@ -34,12 +31,8 @@ public class UmlRepresentation {
                              Set<JavaFileIdentifier> additionalFiles,
                              AnalyzerMode mode) {
 
-        //old part
         focusedFile.ifPresent(file -> additionalFiles.add(file));
-        Set<JavaFileIdentifier> allFiles = getAllFiles(packageDependencies, fileDependencies, additionalFiles);
-        this.containmentMap = allFiles.stream().collect(toMap(JavaFileIdentifier::getPackage, Sets::newHashSet, Sets::union));
-
-        //new part
+        this.allEntities = getAllEntities(packageDependencies, fileDependencies, additionalFiles);
         this.rootEntity = rootEntity;
         this.fileDependencies = fileDependencies;
         this.packageDependencies = packageDependencies;
@@ -48,26 +41,18 @@ public class UmlRepresentation {
         this.mode = mode;
     }
 
-    private static Set<JavaFileIdentifier> getAllFiles(Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies,
-                                                       Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies,
+    private static Set<JavaFileIdentifier> getAllFiles(Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies,
                                                        Set<JavaFileIdentifier> additionalFiles) {
         Set<JavaFileIdentifier> allFiles = flattenEntitiesFromDependencyMap(fileDependencies);
-        allFiles = Sets.union(allFiles, additionalFiles);
-//        Set<PackageIdentifier> allPackages = flattenEntitiesFromDependencyMap(packageDependencies);
-//        allFiles = addFilesOfEmptyPackages(allFiles, allPackages);
-        return allFiles;
+        return Sets.union(allFiles, additionalFiles);
     }
 
-    private static Set<JavaFileIdentifier> addFilesOfEmptyPackages(Set<JavaFileIdentifier> allFiles, Set<PackageIdentifier> allPackages) {
-        Set<PackageIdentifier> nonEmptyPackages = allFiles.stream().map(JavaFileIdentifier::getPackage).collect(toSet());
-        Set<PackageIdentifier> emptyPackages = allPackages.stream()
-                .filter(p -> !nonEmptyPackages.contains(p))
-                .collect(toSet());
-        return Sets.union(allFiles,
-                emptyPackages.stream()
-                        .filter(p -> p.getJavaEntityType().equals(PACKAGE))
-                        .map(p -> p.getContainedJavaFiles().iterator().next()) //there will be at least one because entity is of type PACKAGE
-                        .collect(toSet()));
+    private static Set<JavaContainmentEntity> getAllEntities(Map<PackageIdentifier, Set<PackageIdentifier>> packageDependencies,
+                                                             Map<JavaFileIdentifier, Set<JavaFileIdentifier>> fileDependencies,
+                                                             Set<JavaFileIdentifier> additionalFiles) {
+        Set<JavaFileIdentifier> allFiles = getAllFiles(fileDependencies, additionalFiles);
+        Set<PackageIdentifier> allPackages = flattenEntitiesFromDependencyMap(packageDependencies);
+        return union(allFiles, allPackages);
     }
 
     private static <T> Set<T> flattenEntitiesFromDependencyMap(Map<T, Set<T>> dependencyMap) {
@@ -84,10 +69,29 @@ public class UmlRepresentation {
         return s1 + "\n" + s2;
     }
 
-    private String getPackageDependenciesUml() {
-        return this.packageDependencies.entrySet().stream()
-                .map(this::getSinglePackageDependencyUml)
-                .reduce(UmlRepresentation::concatWithDoubleNewLine)
+    private String getDependenciesUml() {
+        switch (mode) {
+            case PACKAGE_FOLLOWER:
+            case PACKAGE_VIEWER:
+                return this.packageDependencies.entrySet().stream()
+                        .map(this::getSinglePackageDependencyUml)
+                        .reduce(UmlRepresentation::concatWithSingleNewLine)
+                        .orElse("");
+            default:
+                return this.fileDependencies.entrySet().stream()
+                        .map(this::getSingleJavaFileDependencyUml)
+                        .reduce(UmlRepresentation::concatWithSingleNewLine)
+                        .orElse("");
+        }
+    }
+
+    private String getSingleJavaFileDependencyUml(Map.Entry<JavaFileIdentifier, Set<JavaFileIdentifier>> dependency) {
+        JavaFileIdentifier from = dependency.getKey();
+        String javaFileUmlName = from.getUmlNameRelativeTo(this.sourcesRoot);
+        return dependency.getValue().stream()
+                .map(p -> p.getUmlNameRelativeTo(this.sourcesRoot))
+                .map(dependeeName -> javaFileUmlName + " --> " + dependeeName)
+                .reduce(UmlRepresentation::concatWithSingleNewLine)
                 .orElse("");
     }
 
@@ -107,25 +111,18 @@ public class UmlRepresentation {
         uml += "\n";
         uml += getContainmentUml();
         uml += "\n";
-        uml += getPackageDependenciesUml();
+        uml += getDependenciesUml();
         uml += "\n";
         uml += getUmlClosing();
-        return colorFocusedFile(uml);
+        return uml;
     }
 
     @NotNull
     private String getContainmentUml() {
         return this.rootEntity.getContainedEntities().stream()
-                .map(subEntity -> subEntity.getUmlContainmentString(this.sourcesRoot, this.sourcesRoot, this.mode))
+                .map(subEntity -> subEntity.getUmlContainmentString(this.sourcesRoot, this.sourcesRoot, this.mode, this.allEntities, this.focusedFile))
                 .reduce(UmlRepresentation::concatWithDoubleNewLine)
                 .orElse("");
-    }
-
-    private String colorFocusedFile(String umlSoFar) {
-        String unfocused = umlSoFar.replace(FOCUS_COLOR_STR, " ");
-        return this.focusedFile
-                .map(focused -> unfocused.replace(focused.getUmlString(sourcesRoot), focused.getUmlString(sourcesRoot) + FOCUS_COLOR_STR))
-                .orElse(unfocused);
     }
 
     @NotNull

@@ -49,7 +49,7 @@ public class ModuleAnalyzer {
                 case CLASS_FOLLOWER:
                     umlBuilder
                             .addFileDependencies(focusedFile, this.dependencyAnalyzer.getFileDependencies(focusedFile))
-                            .addReverseFileDependencies(this.dependencyAnalyzer.getFileDependencies(focusedFile), focusedFile)
+                            .addReverseFileDependencies(this.dependencyAnalyzer.getReverseFileDependencies(focusedFile), focusedFile)
                             .setFocusedFile(focusedFile);
                     break;
                 default:

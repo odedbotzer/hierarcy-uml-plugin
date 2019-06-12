@@ -5,9 +5,11 @@ import com.google.common.collect.Sets;
 import java.io.File;
 import java.nio.file.Path;
 import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 
 import static codeexplorer.projectanalyzer.JavaEntityType.PACKAGE;
+import static java.io.File.separator;
 import static java.util.stream.Collectors.toSet;
 
 public interface JavaContainmentEntity {
@@ -36,10 +38,12 @@ public interface JavaContainmentEntity {
     JavaEntityType getJavaEntityType();
 
     default String getUmlNameRelativeTo(Path parent) {
-        return parent.relativize(getFile().toPath()).toString().replace(File.separator, ".");
+        return parent.relativize(getFile().toPath()).toString().replace(separator, ".");
     }
 
-    String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode);
+    String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode, Set<JavaContainmentEntity> entitiesToDisplay, Optional<JavaFileIdentifier> focusedFile);
+
+    boolean isAnEntityToDisplay(Set<JavaContainmentEntity> entitiesToDisplay);
 
     File getFile();
 

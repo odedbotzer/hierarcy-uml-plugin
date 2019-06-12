@@ -8,9 +8,6 @@ import org.jetbrains.annotations.NotNull;
 import static org.plantuml.idea.toolwindow.PlantUmlToolWindowFactory.moduleAnalyzer;
 
 public class RebuildNow extends AnAction {
-    public RebuildNow() {
-        super("Rebuild");
-    }
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent anActionEvent) {

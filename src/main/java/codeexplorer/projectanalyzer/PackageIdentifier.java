@@ -1,6 +1,5 @@
 package codeexplorer.projectanalyzer;
 
-import codeexplorer.plantuml.UmlRepresentation;
 import com.google.common.collect.Sets;
 import org.jetbrains.annotations.NotNull;
 
@@ -12,6 +11,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
 
+import static codeexplorer.projectanalyzer.AnalyzerMode.CLASS_FOLLOWER;
 import static codeexplorer.projectanalyzer.JavaFileAnalyzer.javaFileFilter;
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toSet;
@@ -56,17 +56,26 @@ public class PackageIdentifier implements JavaContainmentEntity {
     }
 
     @Override
-    public String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode) {
+    public String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode, Set<JavaContainmentEntity> entitiesToDisplay, Optional<JavaFileIdentifier> focusedFile) {
         if (!getJavaEntityType().equals(JavaEntityType.PACKAGE))
             throw new RuntimeException("package is of type " + getJavaEntityType().name() + ", but should have been of type PACKAGE");
 
-        return "\n package " + getUmlNameRelativeTo(parent) + " as " + getUmlNameRelativeTo(sourcesRoot) + " {" +
-                "\n  " + getContainedEntities().stream()
-                .map(entity -> entity.getUmlContainmentString(this.fileObj.toPath(), sourcesRoot, mode))
-                .reduce(UmlRepresentation::concatWithSingleNewLine)
-                .orElse("")
-                .replace("\n", "\n  ")
-                + "\n }";
+        if (!mode.equals(CLASS_FOLLOWER) || isAnEntityToDisplay(entitiesToDisplay))
+            return "\n rectangle " + getUmlNameRelativeTo(sourcesRoot)+ " as \"" + getUmlNameRelativeTo(parent) +  "\" {\n" +
+                    getContainedEntities().stream()
+                    .map(entity -> entity.getUmlContainmentString(this.fileObj.toPath(), sourcesRoot, mode, entitiesToDisplay, focusedFile))
+                    .reduce(String::concat)
+                    .orElse("")
+                    .replace("\n", "\n  ")
+                    + " }\n";
+
+        return "";
+    }
+
+    @Override
+    public boolean isAnEntityToDisplay(Set<JavaContainmentEntity> entitiesToDisplay) {
+        return entitiesToDisplay.contains(this) ||
+                entitiesToDisplay.stream().anyMatch(entity -> !entity.getUmlNameRelativeTo(this.fileObj.toPath()).contains(".."));
     }
 
     @Override

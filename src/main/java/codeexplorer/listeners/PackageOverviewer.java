@@ -8,9 +8,6 @@ import com.intellij.openapi.ui.Messages;
 import static org.plantuml.idea.toolwindow.PlantUmlToolWindowFactory.moduleAnalyzer;
 
 public class PackageOverviewer extends AnAction {
-    public PackageOverviewer() {
-        super("package-overview mode");
-    }
 
     @Override
     public void actionPerformed(AnActionEvent event) {

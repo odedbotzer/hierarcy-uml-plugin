@@ -40,7 +40,7 @@ public class DependencyAnalyzer {
     }
 
     public Set<JavaFileIdentifier> getFileDependencies(JavaFileIdentifier fromFile) {
-        return getFileDependencies().get(fromFile);
+        return getFileDependencies().getOrDefault(fromFile, newHashSet());
     }
 
     @NotNull

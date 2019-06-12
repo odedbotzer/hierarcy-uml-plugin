@@ -1,7 +1,5 @@
 package codeexplorer.projectanalyzer;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,6 +9,7 @@ import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.Set;
 
 import static com.google.common.collect.Sets.newHashSet;
 
@@ -18,7 +17,7 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
 
     private final String fullPath;
     private final File fileObj;
-    private String umlString;
+    private final String FOCUS_COLOR_STR = " #GreenYellow/LightGoldenRodYellow";
 
     public JavaFileIdentifier(File file) throws NoSuchFileException {
         validateAsJavaFile(file);
@@ -54,7 +53,7 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
         return new PackageIdentifier(fileObj.getParentFile());
     }
 
-    public Reader getFileReader() {
+    Reader getFileReader() {
         try {
             return new FileReader(this.fileObj);
         } catch (FileNotFoundException e) {
@@ -63,7 +62,7 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
         }
     }
 
-    public String getNameWithoutExtension() {
+    private String getNameWithoutExtension() {
         final String extension = ".java";
         String nameWithExt = this.fileObj.getName();
         return nameWithExt.substring(0, nameWithExt.length() - extension.length());
@@ -80,27 +79,20 @@ public class JavaFileIdentifier implements JavaContainmentEntity {
     }
 
     @Override
-    public String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode) {
-        umlString = getUmlString(sourcesRoot, mode);
-        return umlString;
+    public String getUmlContainmentString(Path parent, Path sourcesRoot, AnalyzerMode mode, Set<JavaContainmentEntity> entitiesToDisplay, Optional<JavaFileIdentifier> focusedFile) {
+        if (mode.equals(AnalyzerMode.CLASS_FOLLOWER) && isAnEntityToDisplay(entitiesToDisplay)){
+            String umlLine = "component " + getUmlNameRelativeTo(sourcesRoot) + " as \"" + getNameWithoutExtension() + "\"";
+            if (equals(focusedFile.orElse(null)))
+                umlLine += FOCUS_COLOR_STR;
+            return umlLine + "\n";
+        }
+
+        return "";
     }
 
-    @NotNull
-    public String getUmlString(Path sourcesRoot, AnalyzerMode mode) {
-        String base = getRegularUmlString(sourcesRoot);
-        if(!mode.equals(AnalyzerMode.CLASS_FOLLOWER))
-            return "hide " + base;
-        return base;
-    }
-
-    @NotNull
-    private String getRegularUmlString(Path sourcesRoot) {
-        return "class " + getNameWithoutExtension() + " as " + getUmlNameRelativeTo(sourcesRoot);
-    }
-
-    @NotNull
-    public String getUmlString(Path sourcesRoot) {
-        return umlString == null ? getRegularUmlString(sourcesRoot) : umlString;
+    @Override
+    public boolean isAnEntityToDisplay(Set<JavaContainmentEntity> entitiesToDisplay) {
+        return entitiesToDisplay.contains(this);
     }
 
     @Override
