@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83c2b35c-93aa-4d5f-85c9-50d400d84eea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/ClassExploreStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageExploreStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageOverviewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/RebuildNow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/AnalyzerMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/ModuleAnalyzer.java" afterDir="false" />
+    <list default="true" id="83c2b35c-93aa-4d5f-85c9-50d400d84eea" name="Default Changelist" comment="only package-overview mode works">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/FollowStarter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/FollowStopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStopper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/DependencyAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/DependencyAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaContainmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaContainmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hierarchy-uml-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hierarchy-uml-plugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/DependencyAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/DependencyAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/plantuml/idea/lang/annotator/PlantUmlExternalAnnotatorTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,24 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="126" column="58" selection-start-line="126" selection-start-column="58" selection-end-line="126" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#flattenEntitiesFromDependencyMap#0;class#UmlRepresentation#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageExploreStarter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="349">
+              <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,101 +34,102 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/ClassExploreStarter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageOverviewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="160">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#application-components#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#component#0;n#application-components#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#component#0;n#project-components#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#1;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#2;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#3;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#4;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#5;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#6;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#7;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#0;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#1;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#2;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#3;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#action#8;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#group#1;n#actions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#intentionAction#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#intentionAction#1;n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#intentionAction#2;n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#toolWindow#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#lang.parserDefinition#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#externalAnnotator#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#completion.contributor#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+                <element signature="n#typedHandler#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/RebuildNow.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-260">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/DependencyAnalyzer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/ConfigExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-              <folding>
-                <element signature="method#DependencyAnalyzer#0;class#DependencyAnalyzer#0" />
-                <element signature="method#getAllImportedPackages#0;class#DependencyAnalyzer#0" />
-                <element signature="method#validateSrcFolder#0;class#DependencyAnalyzer#0" />
-                <element signature="method#analyzeAllPackageDependencies#0;class#DependencyAnalyzer#0" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileAnalyzer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="140">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/ModuleAnalyzer.java">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/PsiFile.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-                <element signature="method#JavaModuleRootExtractor#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-                <element signature="method#extractModuleRootDirectory#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-                <element signature="method#parseModuleDirPath#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-                <element signature="method#getNumFoldersUp#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-              </folding>
+            <state relative-caret-position="106">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java">
+        <entry file="jar://C:/temp/intellij plugins/JavaScriptLanguage/javascript-openapi.jar!/com/intellij/lang/javascript/psi/JSFile.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-              <folding>
-                <element signature="method#addFileDependencies#0;class#UmlBuilder#0" />
-                <element signature="method#addReverseFileDependencies#0;class#UmlBuilder#0" />
-                <element signature="method#setFocusedFile#0;class#UmlBuilder#0" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java">
+        <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyFile.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
-              <folding>
-                <element signature="method#getFileReader#0;class#JavaFileIdentifier#0" />
-                <element signature="method#equals#0;class#JavaFileIdentifier#0" />
-              </folding>
+            <state relative-caret-position="980">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStopper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -174,17 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getPackageDependencies()</find>
-      <find>getContainedJavaFiles()</find>
-      <find>analyzeAllFileDependencies()</find>
-      <find>recur</find>
-      <find>Recurs</find>
-      <find>getAllImportedPackages(</find>
-      <find>Path</find>
-      <find>setContainedEntities</find>
-      <find>Uml</find>
-      <find>conca</find>
-      <find>.replace(&quot;\n</find>
       <find>&quot;package</find>
       <find>uml</find>
       <find>&quot;class</find>
@@ -200,10 +162,21 @@
       <find>any file</find>
       <find>enter</find>
       <find>kotlin</find>
-      <find>kot</find>
       <find>hide cl</find>
       <find>getUmlContainmentString(</find>
       <find>as</find>
+      <find>kot</find>
+      <find>yellow</find>
+      <find>unfocused</find>
+      <find>write</find>
+      <find>hide</find>
+      <find>..</find>
+      <find>.replace(&quot;</find>
+      <find>as &quot;</find>
+      <find>fileeditorprovider</find>
+      <find>CheckBox</find>
+      <find>multi</find>
+      <find>duplicate</find>
     </findStrings>
     <replaceStrings>
       <replace>Rebuild</replace>
@@ -225,29 +198,31 @@
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaEntityType.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/SourcesAnalyzerNew.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/filefollower/EditorTabFollower.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/AnalyzerMode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/DependencyAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/DependencyAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/RebuildNowAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStarter.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/ExploreStarter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageOverviewer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaContainmentEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/ModuleAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/RebuildNow.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/ClassExploreStarter.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageExploreStarter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStopper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/RebuildNow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/DependencyAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaContainmentEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/ClassExploreStarter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStopper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageOverviewer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/ModuleAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" />
       </list>
     </option>
   </component>
@@ -259,9 +234,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="977" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -271,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -283,11 +257,6 @@
             <path>
               <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,7 +278,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -317,8 +286,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+              <item name="idea" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -326,8 +295,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="projectanalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="idea" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -335,19 +305,98 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IntelliJ IDEA Community Edition 2019.1.3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IntelliJ IDEA Community Edition 2019.1.3" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IntelliJ IDEA Community Edition 2019.1.3" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-api.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IntelliJ IDEA Community Edition 2019.1.3" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-api.jar" type="ab9368bb:PsiFileNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="IntelliJ IDEA Community Edition 2019.1.3" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="platform-api.jar" type="ab9368bb:PsiFileNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="psi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-191.7479.1 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="psi" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="C:/temp/intellij plugins/JavaScriptLanguage/semver4j-2.2.0.jar!/" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -497,7 +546,28 @@
       <option name="project" value="LOCAL" />
       <updated>1559762374044</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="only package-overview mode works">
+      <created>1559776015989</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559776015989</updated>
+    </task>
+    <task id="LOCAL-00008" summary="works">
+      <created>1560379649199</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560379649199</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial analysis now works with openapi, instead of module &amp; project XML file reading">
+      <created>1560604386960</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560604386960</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -518,10 +588,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.22214764" />
+      <window_info id="Structure" order="1" sideWeight="0.5012531" side_tool="true" weight="0.1885906" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -529,27 +600,67 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37891737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.18091168" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3280363" />
       <window_info anchor="bottom" x="28" y="369" width="1864" height="291" id="Terminal" order="7" weight="0.33048433" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.43162394" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.21006711" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" auto_hide="true" x="-136" y="318" width="1920" height="1001" id="PlantUML" order="8" type="WINDOWED" weight="0.472103" />
+      <window_info anchor="right" x="505" y="332" width="910" height="482" id="PlantUML" order="8" visible="true" weight="0.21409395" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -557,7 +668,22 @@
     <MESSAGE value="not bad, but packages are mistaken for classes..." />
     <MESSAGE value="fixed unique package names&#10;added focusing" />
     <MESSAGE value="toolwindow now implements Condition, meaning it is only opened if user decides to analyze a module" />
-    <option name="LAST_COMMIT_MESSAGE" value="toolwindow now implements Condition, meaning it is only opened if user decides to analyze a module" />
+    <MESSAGE value="only package-overview mode works" />
+    <MESSAGE value="works" />
+    <MESSAGE value="initial analysis now works with openapi, instead of module &amp; project XML file reading" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial analysis now works with openapi, instead of module &amp; project XML file reading" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -570,716 +696,1042 @@
     </expressions>
     <expressions id="breakpointCondition">
       <expression>
+        <expression-string>this.getNameWithoutExtension().equals(&quot;UmlBuilder&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!umlString.equals(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>umlString==null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.umlString==null</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>moduleImlFile != null &amp;&amp; moduleImlFile.isFile()</expression-string>
+        <expression-string>getFileDependencies().get(fromFile)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getPackageDependenciesUml()</expression-string>
+        <expression-string>getFileDependencies()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.children.getClass()</expression-string>
+        <expression-string>this.dependencyAnalyzer.getFileDependencies(focusedFile)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getContainedEntities().getClass()</expression-string>
+        <expression-string>this.focusedFile.get().getUmlLine()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getContainedEntities()</expression-string>
+        <expression-string>focused.getUmlLine()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getContainedEntities().clear()</expression-string>
+        <expression-string>uml.replace(&quot;.&quot;, File.separator)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.io.File</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>entitiesToDisplay.contains(this)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getContainedEntities().clear();</expression-string>
+        <expression-string>uml.replace(File.separator, &quot;..&quot;)</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>java.io.File</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>entity.getContainedEntities().stream()
-                .filter(subEntity -&gt; !subEntity.getJavaEntityType().equals(FOLDER))
-                .collect(toSet())</expression-string>
+        <expression-string>uml.replace(File.separator, &quot;/&quot;)</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>uml</expression-string>
-        <language-id>JAVA</language-id>
+        <custom-info>java.io.File</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/io/FileInputStream.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-impl.jar!/com/intellij/psi/impl/source/JavaStubPsiElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        <state relative-caret-position="120">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/project/impl/ProjectImpl.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/actionSystem/AnActionExtensionProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="232" column="18" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+        <state relative-caret-position="172">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageOverviewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="96" />
           <folding>
-            <element signature="e#9240#9241#0" expanded="true" />
-            <element signature="e#9330#9331#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/project/Project.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-api.jar!/com/intellij/psi/PsiJavaModuleReference.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="160">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/PsiReference.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="93" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="93" />
+        <state relative-caret-position="124">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43200">
-          <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/rendering/RenderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="64" column="63" lean-forward="true" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/rendering/RenderRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/fileEditor/impl/EditorTabTitleProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/annotations.jar!/org/jetbrains/annotations/NotNull.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="351" column="9" selection-start-line="351" selection-start-column="9" selection-end-line="351" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/guava-25.1-jre.jar!/com/google/common/collect/Sets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="1177" column="8" lean-forward="true" selection-start-line="1177" selection-start-column="8" selection-end-line="1177" selection-end-column="8" />
-          <folding>
-            <element signature="e#1522#1559#0" />
-            <element signature="e#1590#1612#0" />
-            <element signature="e#1618#1667#0" />
-            <element signature="e#1618#1862#0" />
-            <element signature="e#1868#1917#0" />
-            <element signature="e#1868#2716#0" />
-            <element signature="e#2063#2121#1" />
-            <element signature="e#2163#2355#1" />
-            <element signature="e#2361#2710#1" />
-            <element signature="e#2445#2637#1" />
-            <element signature="e#2643#2700#1" />
-            <element signature="e#2722#2882#0" />
-            <element signature="e#2888#3110#0" />
-            <element signature="e#3201#3396#0" />
-            <element signature="e#3402#3605#0" />
-            <element signature="e#3611#3790#0" />
-            <element signature="e#3796#3934#0" />
-            <element signature="e#4068#4259#0" />
-            <element signature="e#4368#4723#0" />
-            <element signature="e#4498#4576#1" />
-            <element signature="e#4582#4717#1" />
-            <element signature="e#4729#4885#0" />
-            <element signature="e#4995#5193#0" />
-            <element signature="e#5199#5360#0" />
-            <element signature="e#5636#5978#0" />
-            <element signature="e#5984#6479#0" />
-            <element signature="e#6113#6186#1" />
-            <element signature="e#6192#6473#1" />
-            <element signature="e#6485#6770#0" />
-            <element signature="e#6776#7001#0" />
-            <element signature="e#7007#7025#0" />
-            <element signature="e#7166#9562#0" />
-            <element signature="class#7385:9555" />
-            <element signature="method#size#0;class#7385:9555" />
-            <element signature="e#7565#7722#1" />
-            <element signature="e#7649#7704#1" />
-            <element signature="method#iterator#0;class#7385:9555" />
-            <element signature="class#7962:8756" />
-            <element signature="method#computeNext#0;class#7962:8756" />
-            <element signature="e#8228#8308#1" />
-            <element signature="e#8314#8716#1" />
-            <element signature="e#8385#8626#1" />
-            <element signature="e#8445#8541#1" />
-            <element signature="method#stream#0;class#7385:9555" />
-            <element signature="e#8886#8958#0" />
-            <element signature="method#copyInto#0;class#7385:9555" />
-            <element signature="e#9568#11780#0" />
-            <element signature="class#9774:11773" />
-            <element signature="method#iterator#0;class#9774:11773" />
-            <element signature="class#9877:10487" />
-            <element signature="method#computeNext#0;class#9877:10487" />
-            <element signature="e#10047#10447#1" />
-            <element signature="e#10101#10367#1" />
-            <element signature="e#10213#10294#1" />
-            <element signature="method#stream#0;class#9774:11773" />
-            <element signature="method#parallelStream#0;class#9774:11773" />
-            <element signature="method#size#0;class#9774:11773" />
-            <element signature="e#11146#11302#1" />
-            <element signature="e#11229#11284#1" />
-            <element signature="method#containsAll#0;class#9774:11773" />
-            <element signature="e#11786#13695#0" />
-            <element signature="class#11990:13688" />
-            <element signature="method#iterator#0;class#11990:13688" />
-            <element signature="class#12093:12702" />
-            <element signature="method#computeNext#0;class#12093:12702" />
-            <element signature="e#12263#12662#1" />
-            <element signature="e#12317#12582#1" />
-            <element signature="e#12428#12509#1" />
-            <element signature="method#stream#0;class#11990:13688" />
-            <element signature="e#12803#12875#0" />
-            <element signature="method#parallelStream#0;class#11990:13688" />
-            <element signature="e#12993#13065#0" />
-            <element signature="method#size#0;class#11990:13688" />
-            <element signature="e#13233#13390#1" />
-            <element signature="e#13317#13372#1" />
-            <element signature="e#13701#15929#0" />
-            <element signature="class#13934:15922" />
-            <element signature="method#iterator#0;class#13934:15922" />
-            <element signature="e#14278#15007#1" />
-            <element signature="e#14370#14641#1" />
-            <element signature="e#14483#14564#1" />
-            <element signature="e#14674#14909#1" />
-            <element signature="e#14729#14825#1" />
-            <element signature="method#size#0;class#13934:15922" />
-            <element signature="e#15240#15395#1" />
-            <element signature="e#15322#15377#1" />
-            <element signature="e#15476#15631#1" />
-            <element signature="e#15558#15613#1" />
-            <element signature="e#15935#16608#0" />
-            <element signature="e#16065#16137#1" />
-            <element signature="e#16187#16449#1" />
-            <element signature="e#16455#16602#1" />
-            <element signature="e#16614#17208#0" />
-            <element signature="e#16763#17037#1" />
-            <element signature="e#17043#17202#1" />
-            <element signature="e#17214#17847#0" />
-            <element signature="e#17390#17670#1" />
-            <element signature="e#17676#17841#1" />
-            <element signature="e#17853#17994#0" />
-            <element signature="e#18000#18152#0" />
-            <element signature="e#18158#18208#0" />
-            <element signature="e#18316#21661#0" />
-            <element signature="e#18669#18735#1" />
-            <element signature="e#18741#21655#1" />
-            <element signature="class#18829:21643" />
-            <element signature="method#contains#0;class#18829:21643" />
-            <element signature="e#18960#19021#1" />
-            <element signature="e#19027#19175#1" />
-            <element signature="method#iterator#0;class#18829:21643" />
-            <element signature="class#19279:21342" />
-            <element signature="method#computeNext#0;class#19279:21342" />
-            <element signature="e#19489#19576#1" />
-            <element signature="e#19582#20165#1" />
-            <element signature="e#19807#19908#1" />
-            <element signature="class#20281:21293" />
-            <element signature="method#contains#0;class#20281:21293" />
-            <element signature="method#iterator#0;class#20281:21293" />
-            <element signature="class#20664:21092" />
-            <element signature="method#computeNext#0;class#20664:21092" />
-            <element signature="e#21667#21946#0" />
-            <element signature="e#21813#21914#1" />
-            <element signature="e#21952#22401#0" />
-            <element signature="e#22040#22076#1" />
-            <element signature="e#22109#22352#1" />
-            <element signature="e#22161#22241#0" />
-            <element signature="e#22297#22342#0" />
-            <element signature="e#22358#22395#1" />
-            <element signature="e#22407#22662#0" />
-            <element signature="e#22668#22841#0" />
-            <element signature="e#22847#23068#0" />
-            <element signature="e#23074#23525#0" />
-            <element signature="e#23235#23308#1" />
-            <element signature="e#23531#23536#0" />
-            <element signature="e#23531#24591#0" />
-            <element signature="e#23802#24016#1" />
-            <element signature="e#24078#24254#1" />
-            <element signature="e#24287#24397#1" />
-            <element signature="e#24403#24585#1" />
-            <element signature="e#24597#27494#0" />
-            <element signature="e#25635#25856#0" />
-            <element signature="e#26006#26159#0" />
-            <element signature="e#26283#26440#0" />
-            <element signature="e#26568#26808#0" />
-            <element signature="e#27500#30341#0" />
-            <element signature="e#27892#28119#0" />
-            <element signature="e#28230#28368#0" />
-            <element signature="e#29221#29578#0" />
-            <element signature="e#29368#29540#1" />
-            <element signature="e#29588#29726#0" />
-            <element signature="e#29736#29973#0" />
-            <element signature="e#29983#30152#0" />
-            <element signature="e#30162#30335#0" />
-            <element signature="e#30347#31962#0" />
-            <element signature="e#30474#30699#0" />
-            <element signature="e#30866#31148#0" />
-            <element signature="class#30926:31137" />
-            <element signature="e#31158#31421#0" />
-            <element signature="e#31242#31360#1" />
-            <element signature="e#31366#31411#1" />
-            <element signature="e#31431#31731#0" />
-            <element signature="e#31523#31658#1" />
-            <element signature="e#31664#31721#1" />
-            <element signature="e#31968#33449#0" />
-            <element signature="e#32128#32259#0" />
-            <element signature="e#32269#33165#0" />
-            <element signature="class#32324:33154" />
-            <element signature="initializer##0;class#32324:33154" />
-            <element signature="method#next#0;class#32324:33154" />
-            <element signature="e#32889#32972#1" />
-            <element signature="e#32978#33122#1" />
-            <element signature="e#33262#33443#0" />
-            <element signature="e#33455#36045#0" />
-            <element signature="e#33699#34868#0" />
-            <element signature="e#34008#34287#1" />
-            <element signature="e#34168#34233#1" />
-            <element signature="class#34416:34780" />
-            <element signature="e#34878#35042#0" />
-            <element signature="e#35148#35464#0" />
-            <element signature="e#35250#35388#1" />
-            <element signature="e#35394#35454#1" />
-            <element signature="e#35474#36039#0" />
-            <element signature="e#35622#35704#1" />
-            <element signature="e#35828#35971#1" />
-            <element signature="e#36051#38388#0" />
-            <element signature="e#36188#36322#0" />
-            <element signature="e#36432#36604#0" />
-            <element signature="e#36614#36785#0" />
-            <element signature="e#36795#36929#0" />
-            <element signature="e#36939#37073#0" />
-            <element signature="e#37352#37485#0" />
-            <element signature="e#37495#37639#0" />
-            <element signature="e#37777#38016#0" />
-            <element signature="e#38026#38197#0" />
-            <element signature="e#38207#38382#0" />
-            <element signature="e#38394#39804#0" />
-            <element signature="e#38761#38951#0" />
-            <element signature="e#38961#39125#0" />
-            <element signature="e#39135#39303#0" />
-            <element signature="e#39430#39798#0" />
-            <element signature="e#39542#39788#1" />
-            <element signature="e#39648#39703#1" />
-            <element signature="e#39810#40231#0" />
-            <element signature="e#40310#40339#0" />
-            <element signature="e#40455#40594#0" />
-            <element signature="e#40604#40622#0" />
-            <element signature="e#40631#40642#0" />
-            <element signature="e#40787#40805#0" />
-            <element signature="e#40814#40825#0" />
-            <element signature="e#40983#41001#0" />
-            <element signature="e#41010#41021#0" />
-            <element signature="e#41201#41219#0" />
-            <element signature="e#41228#41239#0" />
-            <element signature="e#41412#41430#0" />
-            <element signature="e#41439#41450#0" />
-            <element signature="e#41412#41633#0" />
-            <element signature="e#41643#41661#0" />
-            <element signature="e#41857#41875#0" />
-            <element signature="e#41930#41931#0" expanded="true" />
-            <element signature="e#41995#41996#0" expanded="true" />
-            <element signature="e#42069#43203#0" />
-            <element signature="e#42295#42328#0" />
-            <element signature="e#42338#42510#0" />
-            <element signature="e#42388#42445#1" />
-            <element signature="e#42451#42499#1" />
-            <element signature="e#42520#42833#0" />
-            <element signature="e#42611#42656#1" />
-            <element signature="e#42685#42729#1" />
-            <element signature="e#42735#42823#1" />
-            <element signature="e#42843#42985#0" />
-            <element signature="e#42995#43197#0" />
-            <element signature="e#43209#43591#0" />
-            <element signature="e#43287#43320#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="242" column="16" selection-start-line="242" selection-start-column="16" selection-end-line="242" selection-end-column="16" />
-          <folding>
-            <element signature="e#8954#8955#0" expanded="true" />
-            <element signature="e#8981#8982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
-          <caret line="222" column="22" selection-start-line="222" selection-start-column="22" selection-end-line="222" selection-end-column="22" />
-          <folding>
-            <element signature="e#20440#20441#0" expanded="true" />
-            <element signature="e#20467#20468#0" expanded="true" />
-            <element signature="e#21137#21138#0" expanded="true" />
-            <element signature="e#21191#21192#0" expanded="true" />
-            <element signature="e#21221#21222#0" expanded="true" />
-            <element signature="e#21275#21276#0" expanded="true" />
-            <element signature="e#21660#21661#0" expanded="true" />
-            <element signature="e#21695#21696#0" expanded="true" />
-            <element signature="e#21744#21745#0" expanded="true" />
-            <element signature="e#21797#21798#0" expanded="true" />
-            <element signature="e#21852#21853#0" expanded="true" />
-            <element signature="e#21915#21916#0" expanded="true" />
-            <element signature="e#21954#21955#0" expanded="true" />
-            <element signature="e#21988#21989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaEntityType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/kotlin-test-1.3.11.jar!/kotlin/test/DefaultAsserter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/wm/ToolWindow.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/wm/impl/ToolWindowImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/wm/ToolWindowFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaModuleRootExtractor.java" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/UserDataHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/Key.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/util/PsiCacheKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/NotNullLazyKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/execution/process/ProcessOutputType.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="158" column="43" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="43" />
+          <folding>
+            <element signature="method#AnAction#0;class#AnAction#0" />
+            <element signature="method#AnAction#3;class#AnAction#0" />
+            <element signature="method#getShortcutSet#0;class#AnAction#0" />
+            <element signature="e#2136#2181#1" />
+            <element signature="method#registerCustomShortcutSet#0;class#AnAction#0" />
+            <element signature="e#2364#2409#1" />
+            <element signature="method#registerCustomShortcutSet#1;class#AnAction#0" />
+            <element signature="method#registerCustomShortcutSet#2;class#AnAction#0" />
+            <element signature="e#2966#3011#1" />
+            <element signature="method#registerCustomShortcutSet#3;class#AnAction#0" />
+            <element signature="e#3283#3858#1" />
+            <element signature="e#3417#3528#1" />
+            <element signature="e#3582#3643#1" />
+            <element signature="e#3687#3847#1" />
+            <element signature="e#3741#3831#0" />
+            <element signature="method#unregisterCustomShortcutSet#0;class#AnAction#0" />
+            <element signature="e#4074#4122#1" />
+            <element signature="method#copyFrom#0;class#AnAction#0" />
+            <element signature="e#4230#4275#1" />
+            <element signature="method#copyShortcutFrom#0;class#AnAction#0" />
+            <element signature="e#4637#4682#1" />
+            <element signature="method#setEnabledInModalContext#0;class#AnAction#0" />
+            <element signature="method#update#0;class#AnAction#0" />
+            <element signature="e#5238#5283#1" />
+            <element signature="e#5387#5432#1" />
+            <element signature="e#5632#5712#1" />
+            <element signature="method#getTemplatePresentation#0;class#AnAction#0" />
+            <element signature="e#5891#5994#1" />
+            <element signature="e#6030#6075#1" />
+            <element signature="method#createTemplatePresentation#0;class#AnAction#0" />
+            <element signature="e#6256#6301#1" />
+            <element signature="method#setShortcutSet#0;class#AnAction#0" />
+            <element signature="e#6510#6555#1" />
+            <element signature="e#6623#6935#1" />
+            <element signature="method#getEventProject#0;class#AnAction#0" />
+            <element signature="class#TransparentUpdate#0;class#AnAction#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jps-builders.jar!/org/jetbrains/jps/incremental/GlobalContextKey.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="575" column="48" selection-start-line="575" selection-start-column="48" selection-end-line="575" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;class#ImageIcon#0" />
+            <element signature="n#!!doc;n#filename#0;n#ImageIcon#0" />
+            <element signature="docComment;field#component#0;class#ImageIcon#0" />
+            <element signature="docComment;field#tracker#0;class#ImageIcon#0" />
+            <element signature="initializer##0;class#ImageIcon#0" />
+            <element signature="class#2605:3398" />
+            <element signature="method#run#0;class#2605:3398" />
+            <element signature="e#2694#3144#0" />
+            <element signature="e#3165#3374#0" />
+            <element signature="e#3187#3220#0" />
+            <element signature="method#createNoPermsComponent#0;class#ImageIcon#0" />
+            <element signature="e#3519#3578#0" />
+            <element signature="class#3688:3880" />
+            <element signature="method#run#0;class#3688:3880" />
+            <element signature="class#3800:3839" />
+            <element signature="docComment;field#mediaTrackerID#0;class#ImageIcon#0" />
+            <element signature="docComment;method#ImageIcon#0;class#ImageIcon#0" />
+            <element signature="method#ImageIcon#0;class#ImageIcon#0" />
+            <element signature="e#4762#4793#1" />
+            <element signature="docComment;method#ImageIcon#1;class#ImageIcon#0" />
+            <element signature="docComment;method#ImageIcon#2;class#ImageIcon#0" />
+            <element signature="method#ImageIcon#2;class#ImageIcon#0" />
+            <element signature="e#6185#6216#1" />
+            <element signature="docComment;method#ImageIcon#3;class#ImageIcon#0" />
+            <element signature="docComment;method#ImageIcon#4;class#ImageIcon#0" />
+            <element signature="method#ImageIcon#4;class#ImageIcon#0" />
+            <element signature="docComment;method#ImageIcon#5;class#ImageIcon#0" />
+            <element signature="method#ImageIcon#5;class#ImageIcon#0" />
+            <element signature="e#7494#7543#1" />
+            <element signature="docComment;method#ImageIcon#6;class#ImageIcon#0" />
+            <element signature="method#ImageIcon#6;class#ImageIcon#0" />
+            <element signature="e#8364#8395#1" />
+            <element signature="docComment;method#ImageIcon#7;class#ImageIcon#0" />
+            <element signature="method#ImageIcon#7;class#ImageIcon#0" />
+            <element signature="e#9376#9407#1" />
+            <element signature="e#9505#9554#1" />
+            <element signature="docComment;method#ImageIcon#8;class#ImageIcon#0" />
+            <element signature="method#ImageIcon#8;class#ImageIcon#0" />
+            <element signature="docComment;method#loadImage#0;class#ImageIcon#0" />
+            <element signature="method#loadImage#0;class#ImageIcon#0" />
+            <element signature="e#9912#10398#0" />
+            <element signature="e#10007#10065#0" />
+            <element signature="e#10097#10183#0" />
+            <element signature="docComment;method#getNextID#0;class#ImageIcon#0" />
+            <element signature="method#getNextID#0;class#ImageIcon#0" />
+            <element signature="e#10558#10606#0" />
+            <element signature="docComment;method#getTracker#0;class#ImageIcon#0" />
+            <element signature="method#getTracker#0;class#ImageIcon#0" />
+            <element signature="e#10866#10921#0" />
+            <element signature="e#11019#11283#0" />
+            <element signature="e#11103#11273#1" />
+            <element signature="docComment;method#getImageLoadStatus#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getImage#0;class#ImageIcon#0" />
+            <element signature="docComment;method#setImage#0;class#ImageIcon#0" />
+            <element signature="method#setImage#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getDescription#0;class#ImageIcon#0" />
+            <element signature="docComment;method#setDescription#0;class#ImageIcon#0" />
+            <element signature="docComment;method#paintIcon#0;class#ImageIcon#0" />
+            <element signature="method#paintIcon#0;class#ImageIcon#0" />
+            <element signature="e#13637#13688#1" />
+            <element signature="e#13694#13757#1" />
+            <element signature="docComment;method#getIconWidth#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getIconHeight#0;class#ImageIcon#0" />
+            <element signature="docComment;method#setImageObserver#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getImageObserver#0;class#ImageIcon#0" />
+            <element signature="docComment;method#toString#0;class#ImageIcon#0" />
+            <element signature="method#toString#0;class#ImageIcon#0" />
+            <element signature="e#15012#15055#1" />
+            <element signature="method#readObject#0;class#ImageIcon#0" />
+            <element signature="e#15369#15603#1" />
+            <element signature="method#writeObject#0;class#ImageIcon#0" />
+            <element signature="e#15883#16329#1" />
+            <element signature="e#15901#16195#0" />
+            <element signature="e#16086#16181#1" />
+            <element signature="e#16239#16319#0" />
+            <element signature="docComment;field#accessibleContext#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleContext#0;class#ImageIcon#0" />
+            <element signature="method#getAccessibleContext#0;class#ImageIcon#0" />
+            <element signature="e#17116#17186#1" />
+            <element signature="docComment;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="e#18084#18160#0" />
+            <element signature="docComment;method#getAccessibleRole#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleStateSet#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleParent#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleIndexInParent#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleChildrenCount#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleChild#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getLocale#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="method#getLocale#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="e#20496#20569#0" />
+            <element signature="docComment;method#getAccessibleIconDescription#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#setAccessibleIconDescription#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleIconHeight#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="docComment;method#getAccessibleIconWidth#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="method#readObject#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+            <element signature="method#writeObject#0;class#AccessibleImageIcon#0;class#ImageIcon#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/NullableLazyKey.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/jre/lib/rt.jar!/javax/swing/Icon.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="98">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#330#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/KeyWithDefaultValue.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/roots/impl/ModuleFileIndexImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/roots/ProjectFileIndex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/vfs/VirtualFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2353">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="e#1786#1817#0" />
+            <element signature="e#1875#2077#0" />
+            <element signature="e#2000#2045#1" />
+            <element signature="e#2204#2460#0" />
+            <element signature="e#2383#2428#1" />
+            <element signature="e#2466#2714#0" />
+            <element signature="e#2637#2682#1" />
+            <element signature="e#2720#2930#0" />
+            <element signature="e#2936#3195#0" />
+            <element signature="e#3118#3163#1" />
+            <element signature="e#3201#3774#0" />
+            <element signature="e#3313#3358#1" />
+            <element signature="e#3477#3768#1" />
+            <element signature="e#3539#3662#1" />
+            <element signature="e#3668#3758#1" />
+            <element signature="e#3823#3939#0" />
+            <element signature="e#3989#4146#0" />
+            <element signature="e#4072#4117#1" />
+            <element signature="e#4465#5070#0" />
+            <element signature="e#4558#4603#1" />
+            <element signature="e#4688#4724#1" />
+            <element signature="e#4730#5064#1" />
+            <element signature="e#4867#5028#1" />
+            <element signature="e#4961#5014#1" />
+            <element signature="e#5076#5679#0" />
+            <element signature="e#5217#5262#1" />
+            <element signature="e#5341#5464#1" />
+            <element signature="e#5374#5427#1" />
+            <element signature="e#5470#5673#1" />
+            <element signature="e#5580#5633#1" />
+            <element signature="e#5685#5922#0" />
+            <element signature="e#5844#5890#1" />
+            <element signature="e#5928#6993#0" />
+            <element signature="e#6040#6086#1" />
+            <element signature="e#6309#6964#1" />
+            <element signature="e#6388#6447#1" />
+            <element signature="e#6543#6863#1" />
+            <element signature="e#6598#6777#1" />
+            <element signature="e#6783#6849#1" />
+            <element signature="e#6892#6954#1" />
+            <element signature="e#6999#8067#0" />
+            <element signature="e#7139#7185#1" />
+            <element signature="e#7220#7339#1" />
+            <element signature="e#7366#7480#1" />
+            <element signature="e#7531#7648#1" />
+            <element signature="e#7688#7824#1" />
+            <element signature="e#7830#8061#1" />
+            <element signature="e#7967#8021#1" />
+            <element signature="e#8073#9121#0" />
+            <element signature="e#8208#8254#1" />
+            <element signature="e#8289#8403#1" />
+            <element signature="e#8430#8544#1" />
+            <element signature="e#8595#8707#1" />
+            <element signature="e#8747#8883#1" />
+            <element signature="e#8889#9115#1" />
+            <element signature="e#9021#9075#1" />
+            <element signature="e#9127#9385#0" />
+            <element signature="e#9391#10035#0" />
+            <element signature="e#9510#9556#1" />
+            <element signature="e#9693#9822#1" />
+            <element signature="e#9828#10029#1" />
+            <element signature="e#9892#10017#0" />
+            <element signature="e#10041#11021#0" />
+            <element signature="e#10206#10252#1" />
+            <element signature="e#10284#10330#1" />
+            <element signature="e#10395#10524#1" />
+            <element signature="e#10560#10678#1" />
+            <element signature="e#10684#11015#1" />
+            <element signature="e#10771#10884#0" />
+            <element signature="e#10921#10975#1" />
+            <element signature="e#11027#11381#0" />
+            <element signature="e#11150#11273#1" />
+            <element signature="e#11304#11350#1" />
+            <element signature="e#11713#11845#0" />
+            <element signature="e#11851#12767#0" />
+            <element signature="e#12083#12761#1" />
+            <element signature="e#12295#12402#1" />
+            <element signature="e#12463#12750#1" />
+            <element signature="e#12506#12564#1" />
+            <element signature="e#12609#12736#1" />
+            <element signature="e#12864#13077#0" />
+            <element signature="e#12974#13020#1" />
+            <element signature="e#13083#13368#0" />
+            <element signature="e#13233#13279#1" />
+            <element signature="e#13374#14380#0" />
+            <element signature="e#13542#13588#1" />
+            <element signature="e#13811#13897#0" />
+            <element signature="e#13922#13984#0" />
+            <element signature="e#13993#14373#0" />
+            <element signature="e#14033#14362#1" />
+            <element signature="e#14069#14281#1" />
+            <element signature="e#14095#14164#0" />
+            <element signature="e#14189#14263#0" />
+            <element signature="e#14287#14348#1" />
+            <element signature="e#14386#14530#0" />
+            <element signature="e#14737#14989#0" />
+            <element signature="e#14911#14957#1" />
+            <element signature="e#15200#15331#0" />
+            <element signature="e#15611#15805#0" />
+            <element signature="e#15690#15736#1" />
+            <element signature="e#16312#16330#0" />
+            <element signature="e#16312#16568#0" />
+            <element signature="e#16435#16481#1" />
+            <element signature="e#16712#16850#0" />
+            <element signature="e#16856#16928#0" />
+            <element signature="e#16934#16968#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/roots/impl/ProjectFileIndexImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="276" column="19" selection-start-line="276" selection-start-column="19" selection-end-line="276" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/PsiManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-api.jar!/com/intellij/psi/PsiJavaCodeReferenceElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#841#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-impl.jar!/com/intellij/psi/impl/source/PsiImportStatementBaseImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-api.jar!/com/intellij/psi/PsiImportStatementBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/action/AboutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/ClassExploreStarter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/roots/FileIndex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/ui/Messages.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1182" column="74" lean-forward="true" selection-start-line="1182" selection-start-column="74" selection-end-line="1182" selection-end-column="74" />
           <folding>
-            <element signature="e#0#1546#0" expanded="true" />
+            <element signature="e#2889#2914#0" />
+            <element signature="e#2920#3582#0" />
+            <element signature="e#3086#3198#1" />
+            <element signature="e#3230#3427#1" />
+            <element signature="e#3433#3576#1" />
+            <element signature="e#3588#4295#0" />
+            <element signature="e#3769#3881#1" />
+            <element signature="e#3913#4125#1" />
+            <element signature="e#4131#4289#1" />
+            <element signature="e#4516#4719#0" />
+            <element signature="e#4642#4687#1" />
+            <element signature="e#4725#4940#0" />
+            <element signature="e#4863#4908#1" />
+            <element signature="e#4946#5153#0" />
+            <element signature="e#5076#5121#1" />
+            <element signature="e#5159#5368#0" />
+            <element signature="e#5291#5336#1" />
+            <element signature="e#5374#5519#0" />
+            <element signature="e#5525#6976#0" />
+            <element signature="e#5666#5711#1" />
+            <element signature="e#6005#6126#1" />
+            <element signature="e#6037#6090#1" />
+            <element signature="e#6132#6970#1" />
+            <element signature="e#6660#6781#1" />
+            <element signature="e#6875#6928#1" />
+            <element signature="e#6982#7421#0" />
+            <element signature="e#7235#7320#1" />
+            <element signature="e#7348#7393#1" />
+            <element signature="e#7427#8410#0" />
+            <element signature="e#7619#7664#1" />
+            <element signature="e#7861#7942#1" />
+            <element signature="e#8081#8142#1" />
+            <element signature="e#8325#8370#1" />
+            <element signature="e#8416#8811#0" />
+            <element signature="e#8649#8695#1" />
+            <element signature="e#8817#9062#0" />
+            <element signature="e#9068#9619#0" />
+            <element signature="e#9302#9509#0" />
+            <element signature="e#9349#9497#0" />
+            <element signature="e#9541#9587#1" />
+            <element signature="e#9625#10454#0" />
+            <element signature="e#9744#9790#1" />
+            <element signature="e#9918#10447#1" />
+            <element signature="e#10078#10437#1" />
+            <element signature="e#10198#10307#0" />
+            <element signature="e#10360#10423#1" />
+            <element signature="e#10460#11039#0" />
+            <element signature="e#10741#10787#1" />
+            <element signature="e#10818#10864#1" />
+            <element signature="e#11045#11550#0" />
+            <element signature="e#11330#11376#1" />
+            <element signature="e#11556#11780#0" />
+            <element signature="e#11786#11978#0" />
+            <element signature="e#11984#12547#0" />
+            <element signature="e#12255#12301#1" />
+            <element signature="e#12332#12378#1" />
+            <element signature="e#12553#13170#0" />
+            <element signature="e#12794#12840#1" />
+            <element signature="e#12869#12915#1" />
+            <element signature="e#12946#12992#1" />
+            <element signature="e#13176#13774#0" />
+            <element signature="e#13454#13500#1" />
+            <element signature="e#13531#13577#1" />
+            <element signature="e#13780#14194#0" />
+            <element signature="e#14027#14073#1" />
+            <element signature="e#14200#14559#0" />
+            <element signature="e#14406#14452#1" />
+            <element signature="e#14565#15262#0" />
+            <element signature="e#14762#14808#1" />
+            <element signature="e#14822#15061#0" />
+            <element signature="e#14864#15051#1" />
+            <element signature="e#15127#15167#0" />
+            <element signature="e#15268#16026#0" />
+            <element signature="e#15466#15512#1" />
+            <element signature="e#15541#15587#1" />
+            <element signature="e#15601#15824#0" />
+            <element signature="e#15643#15814#1" />
+            <element signature="e#15890#15930#0" />
+            <element signature="e#16032#16626#0" />
+            <element signature="e#16202#16248#1" />
+            <element signature="e#16262#16443#0" />
+            <element signature="e#16304#16433#1" />
+            <element signature="e#16509#16549#0" />
+            <element signature="e#16632#17654#0" />
+            <element signature="e#16901#16947#1" />
+            <element signature="e#16978#17024#1" />
+            <element signature="e#17054#17100#1" />
+            <element signature="e#17114#17338#0" />
+            <element signature="e#17156#17328#1" />
+            <element signature="e#17404#17444#0" />
+            <element signature="e#17660#18746#0" />
+            <element signature="e#17970#18016#1" />
+            <element signature="e#18047#18093#1" />
+            <element signature="e#18123#18169#1" />
+            <element signature="e#18183#18423#0" />
+            <element signature="e#18225#18413#1" />
+            <element signature="e#18489#18529#0" />
+            <element signature="e#18752#19550#0" />
+            <element signature="e#18972#19018#1" />
+            <element signature="e#19032#19262#0" />
+            <element signature="e#19074#19252#1" />
+            <element signature="e#19328#19368#0" />
+            <element signature="e#19556#20427#0" />
+            <element signature="e#19817#19863#1" />
+            <element signature="e#19877#20123#0" />
+            <element signature="e#19919#20113#1" />
+            <element signature="e#20189#20229#0" />
+            <element signature="e#20433#21326#0" />
+            <element signature="e#20654#20700#1" />
+            <element signature="e#20729#20775#1" />
+            <element signature="e#20789#21003#0" />
+            <element signature="e#20831#20993#1" />
+            <element signature="e#21069#21109#0" />
+            <element signature="e#21332#22338#0" />
+            <element signature="e#21615#21661#1" />
+            <element signature="e#21692#21738#1" />
+            <element signature="e#21768#21814#1" />
+            <element signature="e#21828#22024#0" />
+            <element signature="e#21870#22014#1" />
+            <element signature="e#22090#22130#0" />
+            <element signature="e#22344#22644#0" />
+            <element signature="e#22650#23368#0" />
+            <element signature="e#22843#22889#1" />
+            <element signature="e#22903#23089#0" />
+            <element signature="e#22945#23079#1" />
+            <element signature="e#23155#23195#0" />
+            <element signature="e#23374#24409#0" />
+            <element signature="e#23663#23709#1" />
+            <element signature="e#23739#23785#1" />
+            <element signature="e#23819#23865#1" />
+            <element signature="e#23879#24172#0" />
+            <element signature="e#23921#24162#1" />
+            <element signature="e#24238#24278#0" />
+            <element signature="e#24415#24990#0" />
+            <element signature="e#24673#24719#1" />
+            <element signature="e#24749#24795#1" />
+            <element signature="e#24829#24875#1" />
+            <element signature="e#24996#25014#0" />
+            <element signature="e#25019#25030#0" />
+            <element signature="e#24996#25302#0" />
+            <element signature="e#25308#26360#0" />
+            <element signature="e#25577#25623#1" />
+            <element signature="e#25652#25698#1" />
+            <element signature="e#25728#25774#1" />
+            <element signature="e#25808#25854#1" />
+            <element signature="e#25868#26129#0" />
+            <element signature="e#25910#26119#1" />
+            <element signature="e#26195#26235#0" />
+            <element signature="e#26366#26384#0" />
+            <element signature="e#26389#26400#0" />
+            <element signature="e#26366#26757#0" />
+            <element signature="e#26613#26659#1" />
+            <element signature="e#26763#26781#0" />
+            <element signature="e#26786#26797#0" />
+            <element signature="e#26763#27079#0" />
+            <element signature="e#27085#27390#0" />
+            <element signature="e#27396#28371#0" />
+            <element signature="e#27678#27724#1" />
+            <element signature="e#27754#27800#1" />
+            <element signature="e#27834#27880#1" />
+            <element signature="e#27894#28143#0" />
+            <element signature="e#27936#28133#1" />
+            <element signature="e#28209#28249#0" />
+            <element signature="e#28377#28876#0" />
+            <element signature="e#28761#28868#0" />
+            <element signature="e#28882#29466#0" />
+            <element signature="e#29233#29279#1" />
+            <element signature="e#29472#29770#0" />
+            <element signature="e#29776#30461#0" />
+            <element signature="e#29955#30001#1" />
+            <element signature="e#30015#30250#0" />
+            <element signature="e#30057#30240#1" />
+            <element signature="e#30316#30356#0" />
+            <element signature="e#30467#31220#0" />
+            <element signature="e#30648#30694#1" />
+            <element signature="e#30723#30769#1" />
+            <element signature="e#30783#31005#0" />
+            <element signature="e#30825#30995#1" />
+            <element signature="e#31071#31111#0" />
+            <element signature="e#31226#31883#0" />
+            <element signature="e#31340#31386#1" />
+            <element signature="e#31400#31645#0" />
+            <element signature="e#31442#31635#1" />
+            <element signature="e#31711#31751#0" />
+            <element signature="e#31889#32480#0" />
+            <element signature="e#32036#32082#1" />
+            <element signature="e#32096#32287#0" />
+            <element signature="e#32138#32277#1" />
+            <element signature="e#32353#32393#0" />
+            <element signature="e#32486#33170#0" />
+            <element signature="e#32662#32708#1" />
+            <element signature="e#32722#32957#0" />
+            <element signature="e#32764#32947#1" />
+            <element signature="e#33023#33063#0" />
+            <element signature="e#33176#33933#0" />
+            <element signature="e#33359#33405#1" />
+            <element signature="e#33434#33480#1" />
+            <element signature="e#33494#33716#0" />
+            <element signature="e#33536#33706#1" />
+            <element signature="e#33782#33822#0" />
+            <element signature="e#33939#34534#0" />
+            <element signature="e#34088#34134#1" />
+            <element signature="e#34148#34339#0" />
+            <element signature="e#34190#34329#1" />
+            <element signature="e#34405#34445#0" />
+            <element signature="e#34540#35654#0" />
+            <element signature="e#34827#34873#1" />
+            <element signature="e#34900#34946#1" />
+            <element signature="e#34972#35018#1" />
+            <element signature="e#35048#35094#1" />
+            <element signature="e#35108#35360#0" />
+            <element signature="e#35150#35350#1" />
+            <element signature="e#35426#35466#0" />
+            <element signature="e#35660#35948#0" />
+            <element signature="e#35954#37129#0" />
+            <element signature="e#36242#36288#1" />
+            <element signature="e#36317#36363#1" />
+            <element signature="e#36390#36436#1" />
+            <element signature="e#36462#36508#1" />
+            <element signature="e#36538#36584#1" />
+            <element signature="e#36598#36834#0" />
+            <element signature="e#36640#36824#1" />
+            <element signature="e#36900#36940#0" />
+            <element signature="e#37135#37508#0" />
+            <element signature="e#37349#37395#1" />
+            <element signature="e#37514#38590#0" />
+            <element signature="e#37815#37861#1" />
+            <element signature="e#37888#37934#1" />
+            <element signature="e#37960#38006#1" />
+            <element signature="e#38036#38082#1" />
+            <element signature="e#38096#38298#0" />
+            <element signature="e#38138#38288#1" />
+            <element signature="e#38364#38404#0" />
+            <element signature="e#38596#38911#0" />
+            <element signature="e#38917#39179#0" />
+            <element signature="e#39185#39425#0" />
+            <element signature="e#39431#39697#0" />
+            <element signature="e#39703#40034#0" />
+            <element signature="e#40040#40328#0" />
+            <element signature="e#40334#40699#0" />
+            <element signature="e#40537#40583#1" />
+            <element signature="e#40705#40948#0" />
+            <element signature="e#40954#41372#0" />
+            <element signature="e#41378#41764#0" />
+            <element signature="e#41770#42224#0" />
+            <element signature="e#42230#42716#0" />
+            <element signature="e#42500#42546#1" />
+            <element signature="e#42722#43114#0" />
+            <element signature="e#43120#43493#0" />
+            <element signature="e#43499#44079#0" />
+            <element signature="e#44001#44047#1" />
+            <element signature="e#44085#44447#0" />
+            <element signature="e#44453#44471#0" />
+            <element signature="e#44453#44806#0" />
+            <element signature="e#44812#44830#0" />
+            <element signature="e#44812#45249#0" />
+            <element signature="e#45066#45112#1" />
+            <element signature="e#45255#45273#0" />
+            <element signature="e#45255#45609#0" />
+            <element signature="e#45615#46258#0" />
+            <element signature="e#45783#45829#1" />
+            <element signature="e#45843#46069#0" />
+            <element signature="e#45885#46059#1" />
+            <element signature="e#46135#46175#0" />
+            <element signature="e#46264#46929#0" />
+            <element signature="e#46443#46489#1" />
+            <element signature="e#46503#46742#0" />
+            <element signature="e#46545#46732#1" />
+            <element signature="e#46808#46848#0" />
+            <element signature="e#46935#47515#0" />
+            <element signature="e#47082#47128#1" />
+            <element signature="e#47142#47337#0" />
+            <element signature="e#47184#47327#1" />
+            <element signature="e#47403#47443#0" />
+            <element signature="e#47521#47907#0" />
+            <element signature="e#47913#48221#0" />
+            <element signature="initializer##0;class#Messages#0" />
+            <element signature="e#48512#48963#0" />
+            <element signature="e#48800#48853#1" />
+            <element signature="e#49298#49773#0" />
+            <element signature="e#49447#49591#1" />
+            <element signature="e#49982#50654#0" />
+            <element signature="e#50297#50350#1" />
+            <element signature="e#50664#51129#0" />
+            <element signature="e#50953#51006#1" />
+            <element signature="e#51139#51493#0" />
+            <element signature="e#51503#52126#0" />
+            <element signature="e#51745#51798#1" />
+            <element signature="e#52136#52654#0" />
+            <element signature="e#52664#52836#0" />
+            <element signature="e#52846#54523#0" />
+            <element signature="e#53038#54396#1" />
+            <element signature="e#53119#54122#1" />
+            <element signature="e#53464#53549#1" />
+            <element signature="e#53864#54053#1" />
+            <element signature="e#54128#54382#1" />
+            <element signature="class#54167:54363" />
+            <element signature="e#54431#54484#1" />
+            <element signature="e#54533#54812#0" />
+            <element signature="e#54755#54801#1" />
+            <element signature="e#54909#55240#0" />
+            <element signature="e#55250#55831#0" />
+            <element signature="e#55413#55557#1" />
+            <element signature="e#55734#55787#1" />
+            <element signature="e#56083#56175#1" />
+            <element signature="e#56984#57027#0" />
+            <element signature="e#57033#57073#0" />
+            <element signature="e#57079#57116#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/AnalyzerMode.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/javax/swing/JOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="368" column="29" selection-start-line="368" selection-start-column="29" selection-end-line="368" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/facet/FacetManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/module/ModuleComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyFromImportStatement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="18" />
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="340" column="19" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="method#validateSrcFolder#0;class#HierarchyAnalyzer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/impl/PyFromImportStatementImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="477" selection-start-line="6" selection-start-column="477" selection-end-line="6" selection-end-column="477" />
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hierarchy-uml-plugin.iml">
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyImportStatementBase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/DependencyAnalyzerTest.java">
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/pyi/PyiFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="100">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-api.jar!/com/intellij/psi/PsiImportHolder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="140">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-api.jar!/com/intellij/psi/PsiJavaFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="docComment;class#PlantUmlToolWindowFactory#0" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaContainmentEntity.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/psi/impl/source/PsiFileImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding>
-            <element signature="method#getFlattenedPackages#0;class#JavaContainmentEntity#0" />
-            <element signature="method#addContainedEntities#0;class#JavaContainmentEntity#0" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/PackageIdentifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="62" column="107" selection-start-line="62" selection-start-column="107" selection-end-line="62" selection-end-column="107" />
+        <state relative-caret-position="280">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="40" />
           <folding>
-            <element signature="method#PackageIdentifier#0;class#PackageIdentifier#0" />
-            <element signature="method#noMutualContainment#0;class#PackageIdentifier#0" />
-            <element signature="method#getContainedJavaFiles#0;class#PackageIdentifier#0" />
+            <element signature="method#subFoldersStream#0;class#PackageIdentifier#0" />
             <element signature="method#toString#0;class#PackageIdentifier#0" />
             <element signature="method#equals#0;class#PackageIdentifier#0" />
+            <element signature="method#analyzeJavaEntityType#0;class#PackageIdentifier#0" />
+            <element signature="method#doesRecursivelyContainJavaFiles#0;class#PackageIdentifier#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="method#removeSubfolders#0;class#HierarchyAnalyzer#0" />
+            <element signature="method#cutPartialPackages#0;class#HierarchyAnalyzer#0" />
+            <element signature="method#cutDirectPartialPackages#0;class#HierarchyAnalyzer#0" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/ModuleAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding>
+            <element signature="method#renderAnalysis#0;class#ModuleAnalyzer#0" />
+            <element signature="method#JavaModuleRootExtractor#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#PlantUmlToolWindowFactory#0" />
+            <element signature="method#chooseModule#0;class#PlantUmlToolWindowFactory#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyImportElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/impl/PyFileImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="541" column="59" selection-start-line="541" selection-start-column="42" selection-end-line="541" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/plantuml/idea/lang/annotator/PlantUmlExternalAnnotatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/codeexplorer/projectanalyzer/DependencyAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/plantuml/idea/intentions/ArrowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="jar://C:/Program Files/JetBrains/WebStorm 2019.1.3/lib/platform-impl.jar!/com/intellij/configurationStore/StateStorageManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/temp/intellij plugins/JavaScriptLanguage/javascript-openapi.jar!/com/intellij/lang/javascript/psi/JSFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/PsiFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/ConfigExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/JetBrains/WebStorm 2019.1.3/lib/platform-impl.jar!/com/intellij/ide/plugins/PluginManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="n#application-components#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#component#0;n#application-components#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#component#0;n#project-components#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#1;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#2;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#3;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#4;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#5;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#6;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#7;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#0;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#1;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#2;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#3;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#action#8;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#group#1;n#actions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#intentionAction#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#intentionAction#1;n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#intentionAction#2;n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#toolWindow#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#lang.parserDefinition#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#externalAnnotator#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#completion.contributor#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
+            <element signature="n#typedHandler#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStopper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="180">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="162" column="50" selection-start-line="162" selection-start-column="50" selection-end-line="162" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/ClassExploreStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageOverviewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/RebuildNow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/DependencyAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-          <folding>
-            <element signature="method#DependencyAnalyzer#0;class#DependencyAnalyzer#0" />
-            <element signature="method#getAllImportedPackages#0;class#DependencyAnalyzer#0" />
-            <element signature="method#validateSrcFolder#0;class#DependencyAnalyzer#0" />
-            <element signature="method#analyzeAllPackageDependencies#0;class#DependencyAnalyzer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/ModuleAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-            <element signature="method#JavaModuleRootExtractor#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-            <element signature="method#extractModuleRootDirectory#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-            <element signature="method#parseModuleDirPath#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-            <element signature="method#getNumFoldersUp#0;class#JavaModuleRootExtractor#0;class#ModuleAnalyzer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-          <folding>
-            <element signature="method#addFileDependencies#0;class#UmlBuilder#0" />
-            <element signature="method#addReverseFileDependencies#0;class#UmlBuilder#0" />
-            <element signature="method#setFocusedFile#0;class#UmlBuilder#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileIdentifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
-          <folding>
-            <element signature="method#getFileReader#0;class#JavaFileIdentifier#0" />
-            <element signature="method#equals#0;class#JavaFileIdentifier#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/plantuml/UmlRepresentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="126" column="58" selection-start-line="126" selection-start-column="58" selection-end-line="126" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#flattenEntitiesFromDependencyMap#0;class#UmlRepresentation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageExploreStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="349">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1325,6 +1777,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>IntelliJ IDEA Community Edition IC-191.7479.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
