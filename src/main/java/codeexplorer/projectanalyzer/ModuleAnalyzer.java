@@ -1,7 +1,9 @@
 package codeexplorer.projectanalyzer;
 
 import codeexplorer.plantuml.UmlBuilder;
-import com.intellij.openapi.ui.Messages;
+import com.intellij.openapi.module.Module;
+import com.intellij.openapi.roots.ModuleRootManager;
+import com.intellij.openapi.vfs.VirtualFile;
 import org.plantuml.idea.rendering.LazyApplicationPoolExecutor;
 import org.plantuml.idea.rendering.RenderCommand;
 import org.plantuml.idea.toolwindow.PlantUmlToolWindow;
@@ -16,21 +18,41 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
+import static com.intellij.openapi.ui.Messages.showErrorDialog;
+
 public class ModuleAnalyzer {
     private final PlantUmlToolWindow plantUmlToolWindow;
-    private final File moduleRootDir;
+//    private final File moduleRootDir;
+    private final VirtualFile moduleRootVirtualDir;
     private DependencyAnalyzer dependencyAnalyzer;
     private JavaContainmentEntity rootEntity;
     public AnalyzerMode analyzerMode = AnalyzerMode.NONE;
 
-    public ModuleAnalyzer(File moduleImlFile, PlantUmlToolWindow plantUmlToolWindow) {
+//    public ModuleAnalyzer(File moduleImlFile, PlantUmlToolWindow plantUmlToolWindow) {
+//        this.plantUmlToolWindow = plantUmlToolWindow;
+//        moduleRootDir = (new JavaModuleRootExtractor(moduleImlFile)).getModuleRootDir();
+//        rebuildAnalysis();
+//    }
+
+    public ModuleAnalyzer(Module module, PlantUmlToolWindow plantUmlToolWindow) {
         this.plantUmlToolWindow = plantUmlToolWindow;
-        moduleRootDir = (new JavaModuleRootExtractor(moduleImlFile)).getModuleRootDir();
+//        moduleRootDir = (new JavaModuleRootExtractor(moduleImlFile)).getModuleRootDir();
+        moduleRootVirtualDir = extractFirstRootDirOfModule(module);
         rebuildAnalysis();
     }
 
+    private VirtualFile extractFirstRootDirOfModule(Module module) {
+        VirtualFile[] moduleSourceRoots = ModuleRootManager.getInstance(module).getSourceRoots();
+        if(moduleSourceRoots.length == 0){
+            showErrorDialog("Error finding module source folder for module " + module.getName(), "ERROR");
+            throw new RuntimeException();
+        }
+        return moduleSourceRoots[0];
+    }
+
     public void rebuildAnalysis() {
-        HierarchyAnalyzer hierarchyAnalyzer = new HierarchyAnalyzer(moduleRootDir);
+//        HierarchyAnalyzer hierarchyAnalyzer = new HierarchyAnalyzer(moduleRootDir);
+        HierarchyAnalyzer hierarchyAnalyzer = new HierarchyAnalyzer(moduleRootVirtualDir);
         rootEntity = hierarchyAnalyzer.getRootEntity();
         dependencyAnalyzer = new DependencyAnalyzer(rootEntity);
     }
@@ -88,7 +110,7 @@ public class ModuleAnalyzer {
                 }
                 throw new RuntimeException();
             } catch (Exception e) {
-                Messages.showErrorDialog("Error finding module source folder for module " + this.moduleName, "ERROR");
+                showErrorDialog("Error finding module source folder for module " + this.moduleName, "ERROR");
                 throw new RuntimeException();
             }
         }

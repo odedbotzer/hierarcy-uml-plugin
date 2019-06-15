@@ -1,5 +1,7 @@
 package codeexplorer.projectanalyzer;
 
+import com.intellij.openapi.vfs.VirtualFile;
+
 import java.io.File;
 import java.util.Set;
 
@@ -17,6 +19,10 @@ public class HierarchyAnalyzer {
         this.rootEntity = new PackageIdentifier(sourceRoot);
         removeSubfolders(rootEntity);
         cutPartialPackages(rootEntity);
+    }
+
+    public HierarchyAnalyzer(VirtualFile moduleRootVirtualDir) {
+        this(new File(moduleRootVirtualDir.getPath()));
     }
 
     private static void removeSubfolders(JavaContainmentEntity entity) {

@@ -90,7 +90,7 @@ public class UmlRepresentation {
         String javaFileUmlName = from.getUmlNameRelativeTo(this.sourcesRoot);
         return dependency.getValue().stream()
                 .map(p -> p.getUmlNameRelativeTo(this.sourcesRoot))
-                .map(dependeeName -> javaFileUmlName + " --> " + dependeeName)
+                .map(dependeeName -> javaFileUmlName + " -down-> " + dependeeName)
                 .reduce(UmlRepresentation::concatWithSingleNewLine)
                 .orElse("");
     }
