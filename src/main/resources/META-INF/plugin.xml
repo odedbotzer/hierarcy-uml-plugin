@@ -7,8 +7,9 @@
 
 <!--    of the following  3 lines, exactly one can be uncommented, corresponding to the language desired-->
 <!--    <depends>com.intellij.modules.python</depends>-->
+<!--    probably not necessary, JavaScript is enough-->
 <!--    <depends>com.intellij.modules.webstorm</depends>-->
-    <depends>JavaScript</depends>//for webstorm
+    <depends>JavaScript</depends>
 <!--    <depends>com.intellij.modules.java</depends>-->
 
 

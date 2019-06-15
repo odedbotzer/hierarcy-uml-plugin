@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83c2b35c-93aa-4d5f-85c9-50d400d84eea" name="Default Changelist" comment="only package-overview mode works">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="83c2b35c-93aa-4d5f-85c9-50d400d84eea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/IntelliJFileAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hierarchy-uml-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hierarchy-uml-plugin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/plantuml/idea/lang/annotator/PlantUmlExternalAnnotatorTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,56 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-              <folding>
-                <element signature="n#application-components#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#component#0;n#application-components#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#component#0;n#project-components#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#1;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#2;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#3;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#4;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#5;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#6;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#7;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#0;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#1;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#2;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#3;n#group#0;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#action#8;n#group#0;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#group#1;n#actions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#intentionAction#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#intentionAction#1;n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#intentionAction#2;n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#toolWindow#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#lang.parserDefinition#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#externalAnnotator#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#completion.contributor#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
-                <element signature="n#typedHandler#0;n#extensions#0;n#idea-plugin#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettings.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,55 +29,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/ConfigExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="234">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="method#removeSubfolders#0;class#HierarchyAnalyzer#0" />
+                <element signature="method#cutPartialPackages#0;class#HierarchyAnalyzer#0" />
+                <element signature="method#cutDirectPartialPackages#0;class#HierarchyAnalyzer#0" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2195#2196#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="700">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/PsiFile.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/IntelliJFileAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/temp/intellij plugins/JavaScriptLanguage/javascript-openapi.jar!/com/intellij/lang/javascript/psi/JSFile.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyFile.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStopper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="383">
+              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;package</find>
       <find>uml</find>
       <find>&quot;class</find>
       <find>Started</find>
@@ -177,6 +109,7 @@
       <find>CheckBox</find>
       <find>multi</find>
       <find>duplicate</find>
+      <find>&quot;import</find>
     </findStrings>
     <replaceStrings>
       <replace>Rebuild</replace>
@@ -221,8 +154,9 @@
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/plantuml/idea/toolwindow/PlantUmlToolWindowFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettings.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/IntelliJFileAnalyzer.java" />
       </list>
     </option>
   </component>
@@ -271,6 +205,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hierarchy-uml-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codeexplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="projectanalyzer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hierarchy-uml-plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -567,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560604386960</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="initial psi compatability for python, java, &amp; javascript">
+      <created>1560617478536</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560617478536</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -591,7 +549,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.22214764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.22214764" />
       <window_info id="Structure" order="1" sideWeight="0.5012531" side_tool="true" weight="0.1885906" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -600,7 +558,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.18091168" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.18091168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -671,7 +629,8 @@
     <MESSAGE value="only package-overview mode works" />
     <MESSAGE value="works" />
     <MESSAGE value="initial analysis now works with openapi, instead of module &amp; project XML file reading" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial analysis now works with openapi, instead of module &amp; project XML file reading" />
+    <MESSAGE value="initial psi compatability for python, java, &amp; javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial psi compatability for python, java, &amp; javascript" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,20 +727,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/java-impl.jar!/com/intellij/psi/impl/source/JavaStubPsiElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/actionSystem/AnActionExtensionProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/PackageOverviewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1563,22 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="method#removeSubfolders#0;class#HierarchyAnalyzer#0" />
-            <element signature="method#cutPartialPackages#0;class#HierarchyAnalyzer#0" />
-            <element signature="method#cutDirectPartialPackages#0;class#HierarchyAnalyzer#0" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2139#2140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/ModuleAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1636,48 +1565,6 @@
     <entry file="jar://C:/Program Files/JetBrains/WebStorm 2019.1.3/lib/platform-impl.jar!/com/intellij/configurationStore/StateStorageManagerImpl.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/temp/intellij plugins/JavaScriptLanguage/javascript-openapi.jar!/com/intellij/lang/javascript/psi/JSFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/PsiFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/ConfigExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/JetBrains/WebStorm 2019.1.3/lib/platform-impl.jar!/com/intellij/ide/plugins/PluginManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1685,10 +1572,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="49">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
             <element signature="n#application-components#0;n#idea-plugin#0;n#!!top" />
             <element signature="n#component#0;n#application-components#0;n#idea-plugin#0;n#!!top" />
@@ -1721,6 +1618,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/temp/intellij plugins/JavaScriptLanguage/javascript-openapi.jar!/com/intellij/lang/javascript/psi/JSFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/psi/PsiFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/FollowStopper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1728,10 +1646,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/listeners/EditorTabFollower.java">
+    <entry file="jar://C:/temp/intellij plugins/python jars/python.jar!/com/jetbrains/python/psi/PyFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="154">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/ConfigExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plantuml/idea/lang/settings/PlantUmlSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/HierarchyAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="method#removeSubfolders#0;class#HierarchyAnalyzer#0" />
+            <element signature="method#cutPartialPackages#0;class#HierarchyAnalyzer#0" />
+            <element signature="method#cutDirectPartialPackages#0;class#HierarchyAnalyzer#0" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/JavaFileAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/codeexplorer/projectanalyzer/IntelliJFileAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
